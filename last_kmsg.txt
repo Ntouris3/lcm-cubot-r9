@@ -1,0 +1,856 @@
+ram console header, hw_status: 2, fiq step 0.
+Not Clear, old status is 2.
+00000, 0x00002010, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 
+[ 4313.843190] -(0)[0:swapper/0][Power/swap]DP: No enter --- SODI: No enter --- 
+[ 4314.845752]  (0)[151:bat_thread_kthr]AvgVbat=(3987,3995),AvgI=(471,475),VChr=4806,AvgT=(30,30),SOC=(53,53),UI_SOC=53,ZCV=3695,CHR_Type=1 bcct:0:0 I:45000 Ibat:909
+[ 4314.845843] [BATTERY] CC mode charge, timer=4020 on 4030 !!
+
+[ 4315.850944]  (0)[151:bat_thread_kthr][BATTERY] Default CC mode charging : 50000
+[ 4315.851000]  (0)[151:bat_thread_kthr][charging_set_cv_voltage] [0xc]=0x5, [0x6]=0x9
+[ 4315.851016]  (0)[151:bat_thread_kthr][BATTERY] pchr_turn_on_charging(), enable =1 
+[ 4315.851093]  (0)[151:bat_thread_kthr]UI_SOC=(53), resetBatteryMeter=(0)
+[ 4315.851115] -(0)[151:bat_thread_kthr]mtk_rtc_hal_common: rtc_spare_reg[0] = {32796, 127, 8}
+[ 4316.056192]  (0)[280:batterywarning][Battery] show_BatteryNotify : 0
+[ 4322.030851]  (0)[118:hang_detect][Hang_Detect] init found pid:1.
+[ 4322.030945]  (0)[118:hang_detect][Hang_Detect] mmcqd/0 found pid:131.
+[ 4322.030972]  (0)[118:hang_detect][Hang_Detect] mmcqd/1 found pid:146.
+[ 4322.031008]  (0)[118:hang_detect][Hang_Detect] surfaceflinger found pid:250.
+[ 4322.031044]  (0)[118:hang_detect][Hang_Detect] debuggerd found pid:430.
+[ 4322.031069]  (0)[118:hang_detect][Hang_Detect] system_server found pid:1032.
+[ 4322.031084]  (0)[118:hang_detect][Hang_Detect] ndroid.systemui found pid:1178.
+[ 4322.031127]  (0)[118:hang_detect][Hang_Detect] hang_detect thread counts down 10:10.
+[ 4323.845135] -(0)[0:swapper/0][Power/swap]DP: No enter --- SODI: No enter --- 
+[ 4324.660870]  (0)[154:wdtk-0][WDK]: kick Ex WDT,RT[4324660854601]
+[ 4324.836286]  (0)[151:bat_thread_kthr]AvgVbat=(3988,3995),AvgI=(471,470),VChr=4815,AvgT=(30,30),SOC=(53,53),UI_SOC=53,ZCV=3695,CHR_Type=1 bcct:0:0 I:45000 Ibat:922
+[ 4324.836376] [BATTERY] CC mode charge, timer=4030 on 4040 !!
+
+[ 4325.840955]  (0)[151:bat_thread_kthr][BATTERY] Default CC mode charging : 50000
+[ 4325.841012]  (0)[151:bat_thread_kthr][charging_set_cv_voltage] [0xc]=0x5, [0x6]=0x9
+[ 4325.841029]  (0)[151:bat_thread_kthr][BATTERY] pchr_turn_on_charging(), enable =1 
+[ 4325.841104]  (0)[151:bat_thread_kthr]UI_SOC=(53), resetBatteryMeter=(0)
+[ 4325.841126] -(0)[151:bat_thread_kthr]mtk_rtc_hal_common: rtc_spare_reg[0] = {32796, 127, 8}
+[ 4325.842684]  (0)[238:healthd]healthd: Unknown battery status '3'
+[ 4325.843436]  (0)[238:healthd]healthd: battery l=53 v=3988 t=30.0 h=2 st=2 chg=u
+[ 4325.843469]  (0)[238:healthd]healthd: battery l=53 v=3988 t=30.0 h=2 st=2 chg=u
+[ 4325.843574]  (0)[238:healthd]healthd: send_already = 0
+[ 4326.056503]  (0)[280:batterywarning][Battery] show_BatteryNotify : 0
+[ 4331.718784]  (0)[1268:watchdog]AEEIOCTL_RT_MON_Kick ( 300)
+[ 4331.718816]  (0)[1268:watchdog][Hang_Detect] hang_detect enabled 10
+[ 4333.767803] -(0)[0:swapper/0][Power/swap]CNT(dpidle,rgidle): [0] = (381,1128142), [1] = (0,760102), [2] = (0,615817), [3] = (0,402464), 
+[ 4333.767841] -(0)[0:swapper/0][Power/swap]dpidle_block_cnt: [by_cpu] = 0, [by_clk] = 2628, [by_tmr] = 0, [by_oth] = 0, [by_vtg] = 0, 
+[ 4333.767865] -(0)[0:swapper/0][Power/swap]dpidle_block_mask: 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00002000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 
+[ 4333.848256] -(0)[0:swapper/0][Power/swap]DP: No enter --- SODI: No enter --- 
+[ 4334.849562]  (0)[151:bat_thread_kthr]AvgVbat=(3988,3997),AvgI=(471,470),VChr=4815,AvgT=(30,30),SOC=(53,53),UI_SOC=53,ZCV=3695,CHR_Type=1 bcct:0:0 I:45000 Ibat:922
+[ 4334.849655] [BATTERY] CC mode charge, timer=4040 on 4050 !!
+
+[ 4335.850954]  (0)[151:bat_thread_kthr][BATTERY] Default CC mode charging : 50000
+[ 4335.851011]  (0)[151:bat_thread_kthr][charging_set_cv_voltage] [0xc]=0x5, [0x6]=0x9
+[ 4335.851027]  (0)[151:bat_thread_kthr][BATTERY] pchr_turn_on_charging(), enable =1 
+[ 4335.851104]  (0)[151:bat_thread_kthr]UI_SOC=(53), resetBatteryMeter=(0)
+[ 4335.851125] -(0)[151:bat_thread_kthr]mtk_rtc_hal_common: rtc_spare_reg[0] = {32796, 127, 8}
+[ 4336.056865]  (0)[280:batterywarning][Battery] show_BatteryNotify : 0
+[ 4336.061159]  (0)[197:logd.writer]logd:diff 619103808114, run 69551628, count 5000,step 1 2891,2 1593,3 4518,4 4906. filter count 0.
+[ 4338.769326] -(0)[0:swapper/0][Power/swap]CNT(soidle,rgidle): [0] = (15,1128613), [1] = (0,760102), [2] = (0,615817), [3] = (0,402464), 
+[ 4338.769364] -(0)[0:swapper/0][Power/swap]soidle_block_cnt: [by_cpu] = 0, [by_clk] = 0, [by_tmr] = 0, [by_oth] = 2648, [by_vtg] = 0, 
+[ 4338.769388] -(0)[0:swapper/0][Power/swap]soidle_block_mask: 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00002010, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 
+[ 4343.850898] -(0)[0:swapper/0][Power/swap]DP: No enter --- SODI: No enter --- 
+[ 4344.670869]  (0)[154:wdtk-0][WDK]: kick Ex WDT,RT[4344670852571]
+[ 4344.842696]  (0)[151:bat_thread_kthr]AvgVbat=(3989,3996),AvgI=(471,470),VChr=4815,AvgT=(30,30),SOC=(53,53),UI_SOC=53,ZCV=3695,CHR_Type=1 bcct:0:0 I:45000 Ibat:922
+[ 4344.842783] [BATTERY] CC mode charge, timer=4050 on 4060 !!
+
+[ 4345.850949]  (0)[151:bat_thread_kthr][BATTERY] Default CC mode charging : 50000
+[ 4345.851007]  (0)[151:bat_thread_kthr][charging_set_cv_voltage] [0xc]=0x5, [0x6]=0x9
+[ 4345.851024]  (0)[151:bat_thread_kthr][BATTERY] pchr_turn_on_charging(), enable =1 
+[ 4345.851099]  (0)[151:bat_thread_kthr]UI_SOC=(53), resetBatteryMeter=(0)
+[ 4345.851121] -(0)[151:bat_thread_kthr]mtk_rtc_hal_common: rtc_spare_reg[0] = {32796, 127, 8}
+[ 4346.057184]  (0)[280:batterywarning][Battery] show_BatteryNotify : 0
+[ 4347.393699]  (0)[0:swapper/0]kpd: kpd: register = fdfe f7fb dfef 7fbf ff
+[ 4347.393739]  (0)[0:swapper/0]kpd: (pressed) HW keycode = 0
+[ 4347.393787]  (0)[0:swapper/0]kpd: report Linux keycode = 114
+[ 4347.393803]  (0)[0:swapper/0]kpd: (pressed) HW keycode = 9
+[ 4347.393815]  (0)[0:swapper/0]kpd: Linux keycode = 0
+[ 4347.393828]  (0)[0:swapper/0]kpd: (pressed) HW keycode = 18
+[ 4347.393841]  (0)[0:swapper/0]kpd: Linux keycode = 0
+[ 4347.393854]  (0)[0:swapper/0]kpd: (pressed) HW keycode = 27
+[ 4347.393866]  (0)[0:swapper/0]kpd: Linux keycode = 0
+[ 4347.393879]  (0)[0:swapper/0]kpd: (pressed) HW keycode = 36
+[ 4347.393891]  (0)[0:swapper/0]kpd: Linux keycode = 0
+[ 4347.393905]  (0)[0:swapper/0]kpd: (pressed) HW keycode = 45
+[ 4347.393917]  (0)[0:swapper/0]kpd: Linux keycode = 0
+[ 4347.393930]  (0)[0:swapper/0]kpd: (pressed) HW keycode = 54
+[ 4347.393942]  (0)[0:swapper/0]kpd: Linux keycode = 0
+[ 4347.393955]  (0)[0:swapper/0]kpd: (pressed) HW keycode = 63
+[ 4347.393967]  (0)[0:swapper/0]kpd: Linux keycode = 0
+[ 4347.393979]  (0)[0:swapper/0]kpd: save new keymap state
+[ 4347.517356]  (0)[0:swapper/0]kpd: kpd: register = ffff ffff ffff ffff ff
+[ 4347.517393]  (0)[0:swapper/0]kpd: (released) HW keycode = 0
+[ 4347.517449]  (0)[0:swapper/0]kpd: report Linux keycode = 114
+[ 4347.517465]  (0)[0:swapper/0]kpd: (released) HW keycode = 9
+[ 4347.517477]  (0)[0:swapper/0]kpd: Linux keycode = 0
+[ 4347.517490]  (0)[0:swapper/0]kpd: (released) HW keycode = 18
+[ 4347.517503]  (0)[0:swapper/0]kpd: Linux keycode = 0
+[ 4347.517516]  (0)[0:swapper/0]kpd: (released) HW keycode = 27
+[ 4347.517528]  (0)[0:swapper/0]kpd: Linux keycode = 0
+[ 4347.517541]  (0)[0:swapper/0]kpd: (released) HW keycode = 36
+[ 4347.517553]  (0)[0:swapper/0]kpd: Linux keycode = 0
+[ 4347.517566]  (0)[0:swapper/0]kpd: (released) HW keycode = 45
+[ 4347.517578]  (0)[0:swapper/0]kpd: Linux keycode = 0
+[ 4347.517591]  (0)[0:swapper/0]kpd: (released) HW keycode = 54
+[ 4347.517603]  (0)[0:swapper/0]kpd: Linux keycode = 0
+[ 4347.517616]  (0)[0:swapper/0]kpd: (released) HW keycode = 63
+[ 4347.517628]  (0)[0:swapper/0]kpd: Linux keycode = 0
+[ 4347.517640]  (0)[0:swapper/0]kpd: save new keymap state
+[ 4351.210898]  (0)[51:pmic_thread][PMIC] [PMIC_INT] addr[0x172]=0x20
+[ 4351.210935]  (0)[51:pmic_thread][PMIC] [pwrkey_int_handler] Press pwrkey
+[ 4351.210950]  (0)[51:pmic_thread]kpd: Power Key generate, pressed=1
+[ 4351.211006]  (0)[51:pmic_thread]kpd: kpd: (pressed) HW keycode =116 using PMIC
+[ 4351.211038]  (0)[51:pmic_thread][PMIC] [PMIC_INT] addr[0x174]=0x0
+[ 4351.276159]  (0)[1523:Binder:1032_7]<ALS/PS> ps_store_active buf=1
+[ 4351.276192]  (0)[1523:Binder:1032_7]<ALS/PS> PS enable data
+[ 4351.283554]  (0)[250:surfaceflinger]DISP/MTKFB [FB Driver] enter late_resume
+[ 4351.349545]  (0)[1523:Binder:1032_7]<ALS/PS> ps real enable
+[ 4351.349554]  (0)[1523:Binder:1032_7]<ALS/PS>  ps_store_active done
+[ 4351.350185]  (0)[1523:Binder:1032_7]<ALS/PS>  ps_delay 20000000 ns
+[ 4351.411012]  (0)[51:pmic_thread][PMIC] [PMIC_INT] addr[0x172]=0x20
+[ 4351.411026]  (0)[51:pmic_thread]kpd: Power Key generate, pressed=0
+[ 4351.411074]  (0)[51:pmic_thread]kpd: kpd: (released) HW keycode =116 using PMIC
+[ 4351.411095]  (0)[51:pmic_thread][PMIC] [PMIC_INT] addr[0x174]=0x0
+[ 4351.641423]  (0)[250:surfaceflinger][CMDQ]======REC 0xe1e6e000 command buffer:
+[ 4351.641441]  (0)[250:surfaceflinger]e1e6e000: 80008001 2000001b 80008001 20000026
+[ 4351.641452]  (0)[250:surfaceflinger]e1e6e010: 00000004 0141c74c 00000000 40000000
+[ 4351.641459]  (0)[250:surfaceflinger]e1e6e020: ffffffe0 10000000
+[ 4351.641466]  (0)[250:surfaceflinger][CMDQ]======REC 0xe1e6e000 command buffer END
+[ 4351.641472]  (0)[250:surfaceflinger][CMDQ]REC 0xe1e6e000 command buffer TRANSLATED:
+[ 4351.641485]  (0)[250:surfaceflinger][CMDQ]Wait And Clear Event: CMDQ_EVENT_DISP_RDMA0_EOF
+[ 4351.641495]  (0)[250:surfaceflinger][CMDQ]Wait And Clear Event: CMDQ_EVENT_MUTEX0_STREAM_EOF
+[ 4351.641510]  (0)[250:surfaceflinger][CMDQ]READ: Reg4, addr=0x1400c74c [COLOR], use_mask=0
+[ 4351.641521]  (0)[250:surfaceflinger][CMDQ]MARKER: sync_no_suspnd=0no_suspnd=0, no_inc=0, m=0, m_en=0, prefetch=0, irq=0
+[ 4351.641527]  (0)[250:surfaceflinger][CMDQ]JUMP(relative): -32
+[ 4351.641533]  (0)[250:surfaceflinger][CMDQ]======REC 0xe1e6e000 command END
+[ 4351.641735]  (0)[250:surfaceflinger]DISP/MTKFB [FB Driver] leave late_resume
+[ 4351.641909]  (0)[250:surfaceflinger]mtk-tpd: fb_notify(blank=0)
+[ 4351.641918]  (0)[250:surfaceflinger]mtk-tpd: LCD ON Notify
+[ 4351.641959]  (0)[250:surfaceflinger][HIF-SDIO][W]wmt_fb_notifier_callback:@@@@@@@@@@wmt enter UNBLANK @@@@@@@@@@@@@@
+[ 4351.651426]  (0)[115:kworker/u8:2]mtk-tpd: TPD wake up
+[ 4351.651909] AEE_MONITOR_SET[status]: 0x1
+[ 4351.656564]  (0)[27459:kworker/0:1][HIF-SDIO][I]mtk_wcn_wmt_func_ctrl:wmt-exp: OPID(3) type(9) start
+[ 4351.682526]  (0)[254:mtk_wmtd][WMT-CORE][I]wmt_core_dump_func_state:[AF FUNC ON]status(b:0 f:0 g:0 w:2 lpbk:2 coredump:0 wmt:2 ant:0 sd1:0 sd2:0 stp:0)
+[ 4351.683094]  (0)[27459:kworker/0:1][HIF-SDIO][I]mtk_wcn_wmt_func_ctrl:OPID(3) type(9) ok
+[ 4351.683130]  (0)[27459:kworker/0:1][HIF-SDIO][I]wmt_pwr_on_off_handler:WMT turn on LPBK suceed
+[ 4351.841804]  (0)[1128:PhotonicModulat][PWM] disp_pwm_set_backlight_cmdq(id = 0x1, level_1024 = 48), old = 0
+[ 4351.841859]  (0)[1128:PhotonicModulat][PWM] backlight is on (48), ddp_pwm power:(1)
+[ 4352.040964]  (0)[118:hang_detect][Hang_Detect] init found pid:1.
+[ 4352.041097]  (0)[118:hang_detect][Hang_Detect] mmcqd/0 found pid:131.
+[ 4352.041137]  (0)[118:hang_detect][Hang_Detect] mmcqd/1 found pid:146.
+[ 4352.041195]  (0)[118:hang_detect][Hang_Detect] surfaceflinger found pid:250.
+[ 4352.041255]  (0)[118:hang_detect][Hang_Detect] debuggerd found pid:430.
+[ 4352.041293]  (0)[118:hang_detect][Hang_Detect] system_server found pid:1032.
+[ 4352.041318]  (0)[118:hang_detect][Hang_Detect] ndroid.systemui found pid:1178.
+[ 4352.041393]  (0)[118:hang_detect][Hang_Detect] hang_detect thread counts down 10:10.
+[ 4352.161167]  (0)[95:hps_main]Boot slave CPU
+[ 4352.161544] -(1)[0:swapper/1]CPU1: Booted secondary processor
+[ 4352.161704] -(1)[0:swapper/1]CPU1: thread -1, cpu 1, socket 0, mpidr 80000001
+[ 4352.162616]  (0)[95:hps_main]Boot slave CPU
+[ 4352.162970] -(2)[0:swapper/2]CPU2: Booted secondary processor
+[ 4352.163122] -(2)[0:swapper/2]CPU2: thread -1, cpu 2, socket 0, mpidr 80000002
+[ 4352.164148]  (0)[95:hps_main]Boot slave CPU
+[ 4352.164529] -(3)[0:swapper/3]CPU3: Booted secondary processor
+[ 4352.164695] -(3)[0:swapper/3]CPU3: thread -1, cpu 3, socket 0, mpidr 80000003
+[ 4352.165876]  (0)[95:hps_main][HPS] (0020)(1)action end(100)(506)(0)(0) (4)(4)(4)(4)(1) (135)(299)(1) (0)(0)(0) (1)(506)(300)(0)(506)
+[ 4352.316097]  (3)[115:kworker/u8:2]mtk-tpd: TPD wake up done
+[ 4352.652283] AEE_MONITOR_SET[status]: 0x1
+[ 4353.652685]  (1)[427:SWWatchDog]AEE_MONITOR_SET[status]: 0x1[ 4353.851206] -(0)[0:swapper/0][Power/swap]DP: No enter --- SODI: No enter --- 
+[ 4354.653037] AEE_MONITOR_SET[status]: 0x1
+[ 4354.844598]  (2)[151:bat_thread_kthr]AvgVbat=(3989,3967),AvgI=(472,500),VChr=4797,AvgT=(30,30),SOC=(53,53),UI_SOC=53,ZCV=3695,CHR_Type=1 bcct:0:0 I:45000 Ibat:690
+[ 4354.844699] [BATTERY] CC mode charge, timer=4060 on 4070 !!
+
+[ 4355.362239]  (0)[95:hps_main]CPU3: shutdown
+[ 4355.364604]  (0)[95:hps_main]CPU2: shutdown
+[ 4355.366562]  (0)[95:hps_main]CPU1: shutdown
+[ 4355.367695]  (0)[95:hps_main][HPS] (0200)(4)action end(51)(51)(0)(0) (4)(4)(4)(4)(3) (0)(0)(0) (338)(8)(0) (0)(51)(8)(0)(51)
+[ 4355.653339] AEE_MONITOR_SET[status]: 0x1
+[ 4355.851311]  (0)[151:bat_thread_kthr][BATTERY] Default CC mode charging : 50000
+[ 4355.851372]  (0)[151:bat_thread_kthr][charging_set_cv_voltage] [0xc]=0x5, [0x6]=0x9
+[ 4355.851389]  (0)[151:bat_thread_kthr][BATTERY] pchr_turn_on_charging(), enable =1 
+[ 4355.851470]  (0)[151:bat_thread_kthr]UI_SOC=(53), resetBatteryMeter=(0)
+[ 4355.851493] -(0)[151:bat_thread_kthr]mtk_rtc_hal_common: rtc_spare_reg[0] = {32796, 127, 8}
+[ 4356.058547]  (0)[280:batterywarning][Battery] show_BatteryNotify : 0
+[ 4356.081425]  (0)[1146:Binder:1032_3]<ALS/PS> ps_store_active buf=0
+[ 4356.081459]  (0)[1146:Binder:1032_3]<ALS/PS> PS disable
+[ 4356.122892]  (0)[1146:Binder:1032_3]<ALS/PS> ps real disable
+[ 4356.122930]  (0)[1146:Binder:1032_3]<ALS/PS>  ps_store_active done
+[ 4356.161232]  (0)[95:hps_main]Boot slave CPU
+[ 4356.161587] -(1)[0:swapper/1]CPU1: Booted secondary processor
+[ 4356.161738] -(1)[0:swapper/1]CPU1: thread -1, cpu 1, socket 0, mpidr 80000001
+[ 4356.162879]  (0)[95:hps_main]Boot slave CPU
+[ 4356.163431] -(2)[0:swapper/2]CPU2: Booted secondary processor
+[ 4356.163589] -(2)[0:swapper/2]CPU2: thread -1, cpu 2, socket 0, mpidr 80000002
+[ 4356.164551]  (0)[95:hps_main]Boot slave CPU
+[ 4356.164931] -(3)[0:swapper/3]CPU3: Booted secondary processor
+[ 4356.165098] -(3)[0:swapper/3]CPU3: thread -1, cpu 3, socket 0, mpidr 80000003
+[ 4356.166148]  (2)[95:hps_main][HPS] (0020)(1)action end(100)(1419)(0)(4) (4)(4)(4)(4)(1) (74)(1)(1) (0)(0)(0) (1)(1419)(2)(0)(1419)
+[ 4356.653762] AEE_MONITOR_SET[status]: 0x1
+[ 4357.654204]  (0)[427:SWWatchDog]AEE_MONITOR_SET[status]: 0x1AEE_MONITOR_SET[status]: 0x1
+[ 4359.655082]  (0)[427:SWWatchDog]AEE_MONITOR_SET[status]: 0x1[ 4360.162075]  (2)[95:hps_main]CPU3: shutdown
+[ 4360.163796]  (2)[95:hps_main][HPS] (0200)(4)action end(2)(2)(0)(0) (4)(4)(4)(4)(1) (0)(0)(0) (1285)(10)(2) (0)(2)(10)(0)(2)
+[ 4360.655477] AEE_MONITOR_SET[status]: 0x1
+[ 4361.655840]  (0)[427:SWWatchDog]AEE_MONITOR_SET[status]: 0x1[ 4361.720113]  (0)[1268:watchdog]AEEIOCTL_RT_MON_Kick ( 300)
+[ 4361.720154]  (0)[1268:watchdog][Hang_Detect] hang_detect enabled 10
+[ 4362.656223] AEE_MONITOR_SET[status]: 0x1
+[ 4363.656777]  (2)[427:SWWatchDog]AEE_MONITOR_SET[status]: 0x1[ 4363.769534] -(0)[0:swapper/0][Power/swap]CNT(dpidle,rgidle): [0] = (381,1134189), [1] = (0,763957), [2] = (0,619385), [3] = (0,404445), 
+[ 4363.769593] -(0)[0:swapper/0][Power/swap]dpidle_block_cnt: [by_cpu] = 13769, [by_clk] = 1647, [by_tmr] = 0, [by_oth] = 0, [by_vtg] = 0, 
+[ 4363.769624] -(0)[0:swapper/0][Power/swap]dpidle_block_mask: 0x00000000, 0x00000000, 0x00000000, 0x00000011, 0x00002010, 0x00000010, 0x00074c03, 0x0000000c, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 
+[ 4363.852541] -(0)[0:swapper/0][Power/swap]DP: No enter --- SODI: No enter --- 
+[ 4364.562511]  (0)[95:hps_main]CPU2: shutdown
+[ 4364.564508]  (0)[95:hps_main][HPS] (0200)(3)action end(258)(351)(0)(0) (4)(4)(4)(4)(1) (441)(11)(1) (962)(11)(3) (0)(351)(11)(0)(351)
+[ 4364.657248] AEE_MONITOR_SET[status]: 0x1
+[ 4364.680992]  (1)[155:wdtk-1][WDK]: kick Ex WDT,RT[4364680963773]
+[ 4364.862614]  (0)[151:bat_thread_kthr]AvgVbat=(3987,3949),AvgI=(471,465),VChr=4797,AvgT=(30,30),SOC=(53,53),UI_SOC=53,ZCV=3695,CHR_Type=1 bcct:0:0 I:45000 Ibat:606
+[ 4364.862738] [BATTERY] CC mode charge, timer=4070 on 4080 !!
+
+[ 4364.961165]  (1)[95:hps_main]Boot slave CPU
+[ 4364.961546] -(2)[0:swapper/2]CPU2: Booted secondary processor
+[ 4364.961710] -(2)[0:swapper/2]CPU2: thread -1, cpu 2, socket 0, mpidr 80000002
+[ 4364.962725]  (1)[95:hps_main]Boot slave CPU
+[ 4364.963085] -(3)[0:swapper/3]CPU3: Booted secondary processor
+[ 4364.963232] -(3)[0:swapper/3]CPU3: thread -1, cpu 3, socket 0, mpidr 80000003
+[ 4364.964217]  (2)[95:hps_main][HPS] (0020)(2)action end(199)(356)(0)(0) (4)(4)(4)(4)(1) (0)(0)(0) (0)(0)(0) (1)(356)(1)(0)(356)
+[ 4364.991315]  (2)[200:logd.auditd]type=1400 audit(1585768908.790:10037): avc: denied { read } for pid=27432 comm="CombinedTP174" name="gpu_memory" dev="debugfs" ino=2211 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:debugfs:s0 tclass=file permissive=0
+[ 4364.993135]  (2)[200:logd.auditd]type=1400 audit(1585768908.800:10038): avc: denied { read } for pid=27432 comm="CombinedTP174" name="clients" dev="debugfs" ino=6918 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:debugfs:s0 tclass=dir permissive=0
+[ 4365.657643] AEE_MONITOR_SET[status]: 0x1
+[ 4365.871019]  (0)[151:bat_thread_kthr][BATTERY] Default CC mode charging : 50000
+[ 4365.871095]  (0)[151:bat_thread_kthr][charging_set_cv_voltage] [0xc]=0x5, [0x6]=0x9
+[ 4365.871120]  (0)[151:bat_thread_kthr][BATTERY] pchr_turn_on_charging(), enable =1 
+[ 4365.871225]  (0)[151:bat_thread_kthr]UI_SOC=(53), resetBatteryMeter=(0)
+[ 4365.871257] -(0)[151:bat_thread_kthr]mtk_rtc_hal_common: rtc_spare_reg[0] = {32796, 127, 8}
+[ 4365.872961]  (1)[238:healthd]healthd: Unknown battery status '3'
+[ 4365.874128]  (1)[238:healthd]healthd: battery l=53 v=3987 t=30.0 h=2 st=2 chg=u
+[ 4365.874181]  (1)[238:healthd]healthd: battery l=53 v=3987 t=30.0 h=2 st=2 chg=u
+[ 4365.874345]  (1)[238:healthd]healthd: send_already = 0
+[ 4366.058987]  (0)[280:batterywarning][Battery] show_BatteryNotify : 0
+[ 4366.658002] AEE_MONITOR_SET[status]: 0x1
+[ 4367.658612]  (3)[427:SWWatchDog]AEE_MONITOR_SET[status]: 0x1[ 4368.162224]  (0)[95:hps_main]CPU3: shutdown
+[ 4368.163941]  (0)[95:hps_main][HPS] (0200)(4)action end(380)(771)(0)(2) (4)(4)(4)(4)(1) (0)(0)(0) (1304)(8)(0) (0)(771)(8)(0)(771)
+[ 4368.659040] AEE_MONITOR_SET[status]: 0x1
+[ 4368.808189] -(0)[0:swapper/0][Power/swap]CNT(soidle,rgidle): [0] = (15,1135262), [1] = (0,765093), [2] = (0,620423), [3] = (0,405209), 
+[ 4368.808234] -(0)[0:swapper/0][Power/swap]soidle_block_cnt: [by_cpu] = 5473, [by_clk] = 0, [by_tmr] = 0, [by_oth] = 1176, [by_vtg] = 0, 
+[ 4368.808261] -(0)[0:swapper/0][Power/swap]soidle_block_mask: 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00002010, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 
+[ 4368.961136]  (2)[95:hps_main]Boot slave CPU
+[ 4368.961478] -(3)[0:swapper/3]CPU3: Booted secondary processor
+[ 4368.961653] -(3)[0:swapper/3]CPU3: thread -1, cpu 3, socket 0, mpidr 80000003
+[ 4368.963074]  (0)[95:hps_main][HPS] (0020)(3)action end(296)(735)(0)(3) (4)(4)(4)(4)(1) (294)(1)(1) (294)(1)(1) (1)(735)(2)(0)(735)
+[ 4369.659728] AEE_MONITOR_SET[status]: 0x1
+[ 4370.660109]  (1)[427:SWWatchDog]AEE_MONITOR_SET[status]: 0x1[ 4371.184900] -(1)[27017:CrGpuMain][PTP] ptp_set_ptp_volt(): cur_temp = 46400, valid = 1
+[ 4371.313293] -(0)[27148:Chrome_ChildIOT][PTP] ptp_set_ptp_volt(): cur_temp = 46400, valid = 1
+[ 4371.660683] AEE_MONITOR_SET[status]: 0x1
+[ 4372.661382]  (1)[427:SWWatchDog]AEE_MONITOR_SET[status]: 0x1[ 4372.854580] -(2)[27017:CrGpuMain][PTP] ptp_set_ptp_volt(): cur_temp = 48600, valid = 1
+[ 4373.661795] AEE_MONITOR_SET[status]: 0x1
+[ 4373.922767] -(0)[0:swapper/0][Power/swap]DP: No enter --- SODI: No enter --- 
+[ 4373.971011]  (0)[428:Binder:250_2][ION]warn: ion mm heap allocate buffer size: 3686400 time: 10606154 ns --10
+[ 4374.091748]  (1)[26945:Profile Saver][name:ion&][ION]warning: release handle @ client destroy: handle=c63e18c0, buf=c43bf500, ref=8, size=2211840, kmap=0
+[ 4374.097576]  (0)[1105:ConnectivitySer]binder: 1032:1105 target_proc is NULL
+[ 4374.097696]  (0)[1105:ConnectivitySer]binder: 1032:1105 transaction failed 29189, size 320-0
+[ 4374.097747]  (0)[1105:ConnectivitySer]binder: read put err 29189 to user 9cbed008, thread error 29189:29185
+[ 4374.662099] AEE_MONITOR_SET[status]: 0x1
+[ 4374.834761]  (0)[151:bat_thread_kthr]AvgVbat=(3986,3940),AvgI=(471,470),VChr=4797,AvgT=(30,30),SOC=(53,53),UI_SOC=53,ZCV=3695,CHR_Type=1 bcct:0:0 I:45000 Ibat:470
+[ 4374.834850] [BATTERY] CC mode charge, timer=4080 on 4090 !!
+
+[ 4375.662496]  (1)[427:SWWatchDog]AEE_MONITOR_SET[status]: 0x1[ 4375.762422]  (0)[95:hps_main]CPU3: shutdown
+[ 4375.763929]  (0)[95:hps_main][HPS] (0200)(4)action end(116)(120)(0)(0) (4)(4)(4)(4)(3) (0)(0)(0) (1632)(17)(1) (0)(120)(17)(0)(120)
+[ 4375.841129]  (1)[151:bat_thread_kthr][BATTERY] Default CC mode charging : 50000
+[ 4375.841201]  (1)[151:bat_thread_kthr][charging_set_cv_voltage] [0xc]=0x5, [0x6]=0x9
+[ 4375.841222]  (1)[151:bat_thread_kthr][BATTERY] pchr_turn_on_charging(), enable =1 
+[ 4375.841314]  (1)[151:bat_thread_kthr]UI_SOC=(53), resetBatteryMeter=(0)
+[ 4375.841342] -(1)[151:bat_thread_kthr]mtk_rtc_hal_common: rtc_spare_reg[0] = {32796, 127, 8}
+[ 4376.059371]  (0)[280:batterywarning][Battery] show_BatteryNotify : 0
+[ 4376.662813] AEE_MONITOR_SET[status]: 0x1
+[ 4377.663141]  (1)[427:SWWatchDog]AEE_MONITOR_SET[status]: 0x1AEE_MONITOR_SET[status]: 0x1
+[ 4378.962025]  (0)[95:hps_main]CPU2: shutdown
+[ 4378.964734]  (0)[95:hps_main]CPU1: shutdown
+[ 4378.967071]  (0)[95:hps_main][HPS] (0200)(3)action end(9)(10)(0)(0) (4)(4)(4)(4)(1) (13)(8)(0) (146)(8)(0) (0)(10)(8)(0)(10)
+[ 4379.663780] AEE_MONITOR_SET[status]: 0x1
+[ 4380.664166]  (0)[427:SWWatchDog]AEE_MONITOR_SET[status]: 0x1AEE_MONITOR_SET[status]: 0x1
+[ 4382.050876]  (0)[118:hang_detect][Hang_Detect] init found pid:1.
+[ 4382.051010]  (0)[118:hang_detect][Hang_Detect] mmcqd/0 found pid:131.
+[ 4382.051047]  (0)[118:hang_detect][Hang_Detect] mmcqd/1 found pid:146.
+[ 4382.051104]  (0)[118:hang_detect][Hang_Detect] surfaceflinger found pid:250.
+[ 4382.051159]  (0)[118:hang_detect][Hang_Detect] debuggerd found pid:430.
+[ 4382.051196]  (0)[118:hang_detect][Hang_Detect] system_server found pid:1032.
+[ 4382.051221]  (0)[118:hang_detect][Hang_Detect] ndroid.systemui found pid:1178.
+[ 4382.051287]  (0)[118:hang_detect][Hang_Detect] hang_detect thread counts down 10:10.
+[ 4382.666291] AEE_MONITOR_SET[status]: 0x1
+[ 4383.666690]  (0)[427:SWWatchDog]AEE_MONITOR_SET[status]: 0x1[ 4383.924216] -(0)[0:swapper/0][Power/swap]DP: No enter --- SODI: No enter --- 
+[ 4384.542681] -(0)[0:swapper/0][PTP] ptp_set_ptp_volt(): cur_temp = 38600, valid = 1
+[ 4384.606885] -(0)[0:swapper/0][PTP] ptp_set_ptp_volt(): cur_temp = 38600, valid = 1
+[ 4384.667060] AEE_MONITOR_SET[status]: 0x1
+[ 4384.690997]  (0)[154:wdtk-0][WDK]: kick Ex WDT,RT[4384690962282]
+[ 4384.862169]  (0)[151:bat_thread_kthr]AvgVbat=(3985,3955),AvgI=(472,480),VChr=4711,AvgT=(30,30),SOC=(53,53),UI_SOC=53,ZCV=3695,CHR_Type=1 bcct:0:0 I:45000 Ibat:658
+[ 4384.862290] [BATTERY] CC mode charge, timer=4090 on 4100 !!
+
+[ 4385.668102]  (0)[427:SWWatchDog]AEE_MONITOR_SET[status]: 0x1[ 4385.871023]  (0)[151:bat_thread_kthr][BATTERY] Default CC mode charging : 50000
+[ 4385.871091]  (0)[151:bat_thread_kthr][charging_set_cv_voltage] [0xc]=0x5, [0x6]=0x9
+[ 4385.871116]  (0)[151:bat_thread_kthr][BATTERY] pchr_turn_on_charging(), enable =1 
+[ 4385.871221]  (0)[151:bat_thread_kthr]UI_SOC=(53), resetBatteryMeter=(0)
+[ 4385.871253] -(0)[151:bat_thread_kthr]mtk_rtc_hal_common: rtc_spare_reg[0] = {32796, 127, 8}
+[ 4386.059711]  (0)[280:batterywarning][Battery] show_BatteryNotify : 0
+[ 4386.668486] AEE_MONITOR_SET[status]: 0x1
+[ 4387.668855]  (0)[427:SWWatchDog]AEE_MONITOR_SET[status]: 0x1AEE_MONITOR_SET[status]: 0x1
+[ 4389.669679]  (0)[427:SWWatchDog]AEE_MONITOR_SET[status]: 0x1AEE_MONITOR_SET[status]: 0x1
+[ 4391.670408]  (0)[427:SWWatchDog]AEE_MONITOR_SET[status]: 0x1[ 4391.721441]  (0)[1268:watchdog]AEEIOCTL_RT_MON_Kick ( 300)
+[ 4391.721474]  (0)[1268:watchdog][Hang_Detect] hang_detect enabled 10
+[ 4392.670795] AEE_MONITOR_SET[status]: 0x1
+[ 4393.671233]  (0)[427:SWWatchDog]AEE_MONITOR_SET[status]: 0x1[ 4393.845238] -(0)[0:swapper/0][Power/swap]CNT(dpidle,rgidle): [0] = (381,1141426), [1] = (0,767839), [2] = (0,622759), [3] = (0,407248), 
+[ 4393.845299] -(0)[0:swapper/0][Power/swap]dpidle_block_cnt: [by_cpu] = 14359, [by_clk] = 2894, [by_tmr] = 0, [by_oth] = 0, [by_vtg] = 0, 
+[ 4393.845340] -(0)[0:swapper/0][Power/swap]dpidle_block_mask: 0x00000000, 0x00000000, 0x00000000, 0x00000015, 0x00002000, 0x00000010, 0x00074c03, 0x0000000c, 0x00000000, 0x00000001, 0x00000000, 0x00000000, 
+[ 4393.930851] -(0)[0:swapper/0][Power/swap]DP: No enter --- SODI: No enter --- 
+[ 4394.671578] AEE_MONITOR_SET[status]: 0x1
+[ 4394.863184]  (0)[151:bat_thread_kthr]AvgVbat=(3984,3966),AvgI=(471,465),VChr=4806,AvgT=(30,30),SOC=(53,53),UI_SOC=53,ZCV=3695,CHR_Type=1 bcct:0:0 I:45000 Ibat:722
+[ 4394.863309] [BATTERY] CC mode charge, timer=4100 on 4110 !!
+
+[ 4395.672024]  (0)[427:SWWatchDog]AEE_MONITOR_SET[status]: 0x1[ 4395.870985]  (0)[151:bat_thread_kthr][BATTERY] Default CC mode charging : 50000
+[ 4395.871045]  (0)[151:bat_thread_kthr][charging_set_cv_voltage] [0xc]=0x5, [0x6]=0x9
+[ 4395.871070]  (0)[151:bat_thread_kthr][BATTERY] pchr_turn_on_charging(), enable =1 
+[ 4395.871175]  (0)[151:bat_thread_kthr]UI_SOC=(53), resetBatteryMeter=(0)
+[ 4395.871207] -(0)[151:bat_thread_kthr]mtk_rtc_hal_common: rtc_spare_reg[0] = {32796, 127, 8}
+[ 4396.060064]  (0)[280:batterywarning][Battery] show_BatteryNotify : 0
+[ 4396.672410] AEE_MONITOR_SET[status]: 0x1
+[ 4397.672756]  (0)[427:SWWatchDog]AEE_MONITOR_SET[status]: 0x1AEE_MONITOR_SET[status]: 0x1
+[ 4398.848800] -(0)[0:swapper/0][Power/swap]CNT(soidle,rgidle): [0] = (15,1142457), [1] = (0,767839), [2] = (0,622759), [3] = (0,407248), 
+[ 4398.848853] -(0)[0:swapper/0][Power/swap]soidle_block_cnt: [by_cpu] = 3270, [by_clk] = 3046, [by_tmr] = 0, [by_oth] = 879, [by_vtg] = 0, 
+[ 4398.848891] -(0)[0:swapper/0][Power/swap]soidle_block_mask: 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00002000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 
+[ 4399.673490] AEE_MONITOR_SET[status]: 0x1
+[ 4400.673836]  (0)[427:SWWatchDog]AEE_MONITOR_SET[status]: 0x1AEE_MONITOR_SET[status]: 0x1
+[ 4402.674581]  (0)[427:SWWatchDog]AEE_MONITOR_SET[status]: 0x1AEE_MONITOR_SET[status]: 0x1
+[ 4403.933760] -(0)[0:swapper/0][Power/swap]DP: No enter --- SODI: No enter --- 
+[ 4404.675294] AEE_MONITOR_SET[status]: 0x1
+[ 4404.700915]  (0)[154:wdtk-0][WDK]: kick Ex WDT,RT[4404700891638]
+[ 4404.862770]  (0)[151:bat_thread_kthr]AvgVbat=(3984,3968),AvgI=(472,490),VChr=4806,AvgT=(30,30),SOC=(54,54),UI_SOC=53,ZCV=3695,CHR_Type=1 bcct:0:0 I:45000 Ibat:741
+[ 4404.862891] [BATTERY] CC mode charge, timer=4110 on 4120 !!
+
+[ 4405.675752]  (0)[427:SWWatchDog]AEE_MONITOR_SET[status]: 0x1[ 4405.871057]  (0)[151:bat_thread_kthr][BATTERY] Default CC mode charging : 50000
+[ 4405.871130]  (0)[151:bat_thread_kthr][charging_set_cv_voltage] [0xc]=0x5, [0x6]=0x9
+[ 4405.871155]  (0)[151:bat_thread_kthr][BATTERY] pchr_turn_on_charging(), enable =1 
+[ 4405.871263]  (0)[151:bat_thread_kthr]UI_SOC=(54), resetBatteryMeter=(0)
+[ 4405.871295] -(0)[151:bat_thread_kthr]mtk_rtc_hal_common: rtc_spare_reg[0] = {32796, 127, 8}
+[ 4405.873686]  (0)[238:healthd]healthd: Unknown battery status '3'
+[ 4405.874841]  (0)[238:healthd]healthd: battery l=54 v=3984 t=30.0 h=2 st=2 chg=u
+[ 4405.874895]  (0)[238:healthd]healthd: battery l=54 v=3984 t=30.0 h=2 st=2 chg=u
+[ 4405.875064]  (0)[238:healthd]healthd: send_already = 0
+[ 4406.060426]  (0)[280:batterywarning][Battery] show_BatteryNotify : 0
+[ 4406.676179] AEE_MONITOR_SET[status]: 0x1
+[ 4407.581921]  (0)[200:logd.auditd]type=1400 audit(1585768951.390:10039): avc: denied { read } for pid=1995 comm="BgHandler" name="gpu_memory" dev="debugfs" ino=2211 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:debugfs:s0 tclass=file permissive=0
+[ 4407.583100]  (0)[200:logd.auditd]type=1400 audit(1585768951.390:10040): avc: denied { read } for pid=1995 comm="BgHandler" name="clients" dev="debugfs" ino=6918 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:debugfs:s0 tclass=dir permissive=0
+[ 4407.676556] AEE_MONITOR_SET[status]: 0x1
+[ 4408.676914]  (0)[427:SWWatchDog]AEE_MONITOR_SET[status]: 0x1AEE_MONITOR_SET[status]: 0x1
+[ 4410.677580]  (0)[427:SWWatchDog]AEE_MONITOR_SET[status]: 0x1AEE_MONITOR_SET[status]: 0x1
+[ 4412.060896]  (0)[118:hang_detect][Hang_Detect] init found pid:1.
+[ 4412.061028]  (0)[118:hang_detect][Hang_Detect] mmcqd/0 found pid:131.
+[ 4412.061066]  (0)[118:hang_detect][Hang_Detect] mmcqd/1 found pid:146.
+[ 4412.061120]  (0)[118:hang_detect][Hang_Detect] surfaceflinger found pid:250.
+[ 4412.061174]  (0)[118:hang_detect][Hang_Detect] debuggerd found pid:430.
+[ 4412.061210]  (0)[118:hang_detect][Hang_Detect] system_server found pid:1032.
+[ 4412.061234]  (0)[118:hang_detect][Hang_Detect] ndroid.systemui found pid:1178.
+[ 4412.061298]  (0)[118:hang_detect][Hang_Detect] hang_detect thread counts down 10:10.
+[ 4412.679638] AEE_MONITOR_SET[status]: 0x1
+[ 4413.680005]  (0)[427:SWWatchDog]AEE_MONITOR_SET[status]: 0x1[ 4413.938168] -(0)[0:swapper/0][Power/swap]DP: No enter --- SODI: No enter --- 
+[ 4414.680330] AEE_MONITOR_SET[status]: 0x1
+[ 4414.862805]  (0)[151:bat_thread_kthr]AvgVbat=(3983,3965),AvgI=(471,465),VChr=4815,AvgT=(30,30),SOC=(54,54),UI_SOC=54,ZCV=3695,CHR_Type=1 bcct:0:0 I:45000 Ibat:683
+[ 4414.862930] [BATTERY] CC mode charge, timer=4120 on 4130 !!
+
+[ 4415.680730]  (0)[427:SWWatchDog]AEE_MONITOR_SET[status]: 0x1[ 4415.870989]  (0)[151:bat_thread_kthr][BATTERY] Default CC mode charging : 50000
+[ 4415.871049]  (0)[151:bat_thread_kthr][charging_set_cv_voltage] [0xc]=0x5, [0x6]=0x9
+[ 4415.871074]  (0)[151:bat_thread_kthr][BATTERY] pchr_turn_on_charging(), enable =1 
+[ 4415.871180]  (0)[151:bat_thread_kthr]UI_SOC=(54), resetBatteryMeter=(0)
+[ 4415.871211] -(0)[151:bat_thread_kthr]mtk_rtc_hal_common: rtc_spare_reg[0] = {32796, 127, 8}
+[ 4416.060888]  (0)[280:batterywarning][Battery] show_BatteryNotify : 0
+[ 4416.681144] AEE_MONITOR_SET[status]: 0x1
+[ 4417.681530]  (0)[427:SWWatchDog]AEE_MONITOR_SET[status]: 0x1AEE_MONITOR_SET[status]: 0x1
+[ 4419.682247]  (0)[427:SWWatchDog]AEE_MONITOR_SET[status]: 0x1AEE_MONITOR_SET[status]: 0x1
+[ 4421.682930]  (0)[427:SWWatchDog]AEE_MONITOR_SET[status]: 0x1[ 4421.722779]  (0)[1268:watchdog]AEEIOCTL_RT_MON_Kick ( 300)
+[ 4421.722813]  (0)[1268:watchdog][Hang_Detect] hang_detect enabled 10
+[ 4422.683266] AEE_MONITOR_SET[status]: 0x1
+[ 4423.683620]  (0)[427:SWWatchDog]AEE_MONITOR_SET[status]: 0x1[ 4423.851374] -(0)[0:swapper/0][Power/swap]CNT(dpidle,rgidle): [0] = (381,1147294), [1] = (0,767839), [2] = (0,622759), [3] = (0,407248), 
+[ 4423.851414] -(0)[0:swapper/0][Power/swap]dpidle_block_cnt: [by_cpu] = 0, [by_clk] = 5868, [by_tmr] = 0, [by_oth] = 0, [by_vtg] = 0, 
+[ 4423.851453] -(0)[0:swapper/0][Power/swap]dpidle_block_mask: 0x00000000, 0x00000000, 0x00000000, 0x00000011, 0x00002000, 0x00000010, 0x00074c03, 0x0000000c, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 
+[ 4423.939315] -(0)[0:swapper/0][Power/swap]DP: No enter --- SODI: No enter --- 
+[ 4424.683946] AEE_MONITOR_SET[status]: 0x1
+[ 4424.710933]  (0)[154:wdtk-0][WDK]: kick Ex WDT,RT[4424710905916]
+[ 4424.863158]  (0)[151:bat_thread_kthr]AvgVbat=(3982,3967),AvgI=(471,470),VChr=4806,AvgT=(30,30),SOC=(54,54),UI_SOC=54,ZCV=3695,CHR_Type=1 bcct:0:0 I:45000 Ibat:709
+[ 4424.863278] [BATTERY] CC mode charge, timer=4130 on 4140 !!
+
+[ 4425.684293]  (0)[427:SWWatchDog]AEE_MONITOR_SET[status]: 0x1[ 4425.871004]  (0)[151:bat_thread_kthr][BATTERY] Default CC mode charging : 50000
+[ 4425.871069]  (0)[151:bat_thread_kthr][charging_set_cv_voltage] [0xc]=0x5, [0x6]=0x9
+[ 4425.871094]  (0)[151:bat_thread_kthr][BATTERY] pchr_turn_on_charging(), enable =1 
+[ 4425.871199]  (0)[151:bat_thread_kthr]UI_SOC=(54), resetBatteryMeter=(0)
+[ 4425.871231] -(0)[151:bat_thread_kthr]mtk_rtc_hal_common: rtc_spare_reg[0] = {32796, 127, 8}
+[ 4426.061242]  (0)[280:batterywarning][Battery] show_BatteryNotify : 0
+[ 4426.684613] AEE_MONITOR_SET[status]: 0x1
+[ 4427.684955]  (0)[427:SWWatchDog]AEE_MONITOR_SET[status]: 0x1AEE_MONITOR_SET[status]: 0x1
+[ 4428.853421] -(0)[0:swapper/0][Power/swap]CNT(soidle,rgidle): [0] = (15,1148302), [1] = (0,767839), [2] = (0,622759), [3] = (0,407248), 
+[ 4428.853474] -(0)[0:swapper/0][Power/swap]soidle_block_cnt: [by_cpu] = 0, [by_clk] = 1572, [by_tmr] = 0, [by_oth] = 4273, [by_vtg] = 0, 
+[ 4428.853512] -(0)[0:swapper/0][Power/swap]soidle_block_mask: 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00002000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 
+[ 4429.685592] AEE_MONITOR_SET[status]: 0x1
+[ 4430.685933]  (0)[427:SWWatchDog]AEE_MONITOR_SET[status]: 0x1AEE_MONITOR_SET[status]: 0x1
+[ 4432.686679]  (0)[427:SWWatchDog]AEE_MONITOR_SET[status]: 0x1AEE_MONITOR_SET[status]: 0x1
+[ 4433.950929] -(0)[0:swapper/0][Power/swap]DP: No enter --- SODI: No enter --- 
+[ 4434.687476] AEE_MONITOR_SET[status]: 0x1
+[ 4434.863935]  (0)[151:bat_thread_kthr]AvgVbat=(3982,3970),AvgI=(471,465),VChr=4815,AvgT=(30,30),SOC=(54,54),UI_SOC=54,ZCV=3695,CHR_Type=1 bcct:0:0 I:45000 Ibat:735
+[ 4434.864059] [BATTERY] CC mode charge, timer=4140 on 4150 !!
+
+[ 4435.472490]  (0)[1128:PhotonicModulat][PWM] disp_pwm_set_backlight_cmdq(id = 0x1, level_1024 = 0), old = 8
+[ 4435.761157]  (0)[95:hps_main]Boot slave CPU
+[ 4435.761504] -(1)[0:swapper/1]CPU1: Booted secondary processor
+[ 4435.761647] -(1)[0:swapper/1]CPU1: thread -1, cpu 1, socket 0, mpidr 80000001
+[ 4435.762510]  (0)[95:hps_main]Boot slave CPU
+[ 4435.762842] -(2)[0:swapper/2]CPU2: Booted secondary processor
+[ 4435.762969] -(2)[0:swapper/2]CPU2: thread -1, cpu 2, socket 0, mpidr 80000002
+[ 4435.763884]  (0)[95:hps_main]Boot slave CPU
+[ 4435.764222] -(3)[0:swapper/3]CPU3: Booted secondary processor
+[ 4435.764394] -(3)[0:swapper/3]CPU3: thread -1, cpu 3, socket 0, mpidr 80000003
+[ 4435.765669]  (0)[95:hps_main][HPS] (0020)(1)action end(100)(980)(0)(0) (4)(4)(4)(4)(1) (76)(141)(1) (0)(0)(0) (1)(980)(142)(0)(980)
+[ 4435.871108]  (0)[151:bat_thread_kthr][BATTERY] Default CC mode charging : 50000
+[ 4435.871153]  (0)[151:bat_thread_kthr][charging_set_cv_voltage] [0xc]=0x5, [0x6]=0x9
+[ 4435.871163]  (0)[151:bat_thread_kthr][BATTERY] pchr_turn_on_charging(), enable =1 
+[ 4435.871255]  (0)[151:bat_thread_kthr]UI_SOC=(54), resetBatteryMeter=(0)
+[ 4435.871273] -(0)[151:bat_thread_kthr]mtk_rtc_hal_common: rtc_spare_reg[0] = {32796, 127, 8}
+[ 4436.031048]  (0)[250:surfaceflinger][PWM] backlight is off, ddp_pwm power:(0)
+[ 4436.038744]  (0)[250:surfaceflinger][ION]ion_fb_event: + screen-off +
+[ 4436.038762]  (0)[250:surfaceflinger][ION]ion_fb_event: - screen-off -
+[ 4436.039030]  (0)[250:surfaceflinger]mtk-tpd: fb_notify(blank=4)
+[ 4436.039036]  (0)[250:surfaceflinger]mtk-tpd: LCD OFF Notify
+[ 4436.039046]  (0)[250:surfaceflinger]mtk-tpd: cancel touch_resume_workqueue err = 0
+[ 4436.039051]  (0)[250:surfaceflinger]mtk-tpd: TPD enter sleep
+[ 4436.061563]  (1)[280:batterywarning][Battery] show_BatteryNotify : 0
+[ 4436.149510]  (0)[250:surfaceflinger]ERROR,531: id=1,addr: 59, transfer error
+[ 4436.149518]  (0)[250:surfaceflinger]ERROR,537: I2C_ACKERR
+[ 4436.149534]  (0)[250:surfaceflinger]I2C structure:
+[ 4436.149534] [I2C]Clk=12500,Id=1,Speed mode=1,St_rs=0,Dma_en=0,Op=1,Poll_en=0,Irq_stat=2
+[ 4436.149534] [I2C]Trans_len=1,Trans_num=1,Trans_auxlen=0,Data_size=ffff,speed=100
+[ 4436.149534] [I2C]Trans_stop=1,Trans_comp=0,Trans_error=2
+[ 4436.149541]  (0)[250:surfaceflinger]base address 0xe16f4000
+[ 4436.149558]  (0)[250:surfaceflinger]I2C register:
+[ 4436.149558] [I2C]SLAVE_ADDR=b2,INTR_MASK=f8,INTR_STAT=1,CONTROL=28,TRANSFER_LEN=1
+[ 4436.149558] [I2C]TRANSAC_LEN=1,DELAY_LEN=2,TIMING=103d,START=0,FIFO_STAT=1101
+[ 4436.149558] [I2C]IO_CONFIG=3,HS=102,DCM_EN=0,DEBUGSTAT=40,EXT_CONF=8001,TRANSFER_LEN_AUX=0
+[ 4436.149573]  (0)[250:surfaceflinger]before enable DMA register(0xe16dc200):
+[ 4436.149573] [I2C]INT_FLAG=0,INT_EN=0,EN=0,RST=0,
+[ 4436.149573] [I2C]STOP=0,FLUSH=0,CON=0,TX_MEM_ADDR=9e0fa000, RX_MEM_ADDR=0
+[ 4436.149573] [I2C]TX_LEN=9,RX_LEN=0,INT_BUF_SIZE=0,DEBUG_STATUS=0
+[ 4436.149573] [I2C]ARHP=0,AWHP=0
+[ 4436.149584]  (0)[250:surfaceflinger]IicWriteData() error -22, nSlaveId=89, nSize=1
+[ 4436.169651]  (0)[250:surfaceflinger]mtk-tpd: TPD enter sleep done
+[ 4436.169666]  (0)[250:surfaceflinger][HIF-SDIO][W]wmt_fb_notifier_callback:@@@@@@@@@@wmt enter early POWERDOWN @@@@@@@@@@@@@@
+[ 4436.169715]  (0)[27479:kworker/0:2][HIF-SDIO][I]mtk_wcn_wmt_func_ctrl:wmt-exp: OPID(4) type(9) start
+[ 4436.190964]  (0)[254:mtk_wmtd][WMT-CORE][I]wmt_core_dump_func_state:[AF FUNC OFF]status(b:0 f:0 g:0 w:2 lpbk:0 coredump:0 wmt:2 ant:0 sd1:0 sd2:0 stp:0)
+[ 4436.191070]  (0)[27479:kworker/0:2][HIF-SDIO][I]mtk_wcn_wmt_func_ctrl:OPID(4) type(9) ok
+[ 4438.961936]  (2)[95:hps_main]CPU3: shutdown
+[ 4438.964089]  (0)[95:hps_main]CPU2: shutdown
+[ 4438.966192]  (0)[95:hps_main]CPU1: shutdown
+[ 4438.967415]  (0)[95:hps_main][HPS] (0200)(4)action end(0)(0)(0)(0) (4)(4)(4)(4)(1) (0)(0)(0) (360)(8)(0) (0)(0)(8)(0)(0)
+[ 4442.070859]  (0)[118:hang_detect][Hang_Detect] init found pid:1.
+[ 4442.070953]  (0)[118:hang_detect][Hang_Detect] mmcqd/0 found pid:131.
+[ 4442.070978]  (0)[118:hang_detect][Hang_Detect] mmcqd/1 found pid:146.
+[ 4442.071016]  (0)[118:hang_detect][Hang_Detect] surfaceflinger found pid:250.
+[ 4442.071050]  (0)[118:hang_detect][Hang_Detect] debuggerd found pid:430.
+[ 4442.071074]  (0)[118:hang_detect][Hang_Detect] system_server found pid:1032.
+[ 4442.071090]  (0)[118:hang_detect][Hang_Detect] ndroid.systemui found pid:1178.
+[ 4442.071131]  (0)[118:hang_detect][Hang_Detect] hang_detect thread counts down 10:10.
+[ 4443.965798] -(0)[0:swapper/0][Power/swap]DP: No enter --- SODI: No enter --- 
+[ 4444.720871]  (0)[154:wdtk-0][WDK]: kick Ex WDT,RT[4444720852656]
+[ 4444.847357]  (0)[151:bat_thread_kthr]AvgVbat=(3982,3992),AvgI=(471,475),VChr=4806,AvgT=(30,30),SOC=(54,54),UI_SOC=54,ZCV=3695,CHR_Type=1 bcct:0:0 I:45000 Ibat:864
+[ 4444.847450] [BATTERY] CC mode charge, timer=4150 on 4160 !!
+
+[ 4445.850963]  (0)[151:bat_thread_kthr][BATTERY] Default CC mode charging : 50000
+[ 4445.851020]  (0)[151:bat_thread_kthr][charging_set_cv_voltage] [0xc]=0x5, [0x6]=0x9
+[ 4445.851037]  (0)[151:bat_thread_kthr][BATTERY] pchr_turn_on_charging(), enable =1 
+[ 4445.851114]  (0)[151:bat_thread_kthr]UI_SOC=(54), resetBatteryMeter=(0)
+[ 4445.851136] -(0)[151:bat_thread_kthr]mtk_rtc_hal_common: rtc_spare_reg[0] = {32796, 127, 8}
+[ 4445.852488]  (0)[238:healthd]healthd: Unknown battery status '3'
+[ 4445.853229]  (0)[238:healthd]healthd: battery l=54 v=3982 t=30.0 h=2 st=2 chg=u
+[ 4445.853262]  (0)[238:healthd]healthd: battery l=54 v=3982 t=30.0 h=2 st=2 chg=u
+[ 4445.853366]  (0)[238:healthd]healthd: send_already = 0
+[ 4446.061866]  (0)[280:batterywarning][Battery] show_BatteryNotify : 0
+[ 4451.723886]  (0)[1268:watchdog]AEEIOCTL_RT_MON_Kick ( 300)
+[ 4451.723921]  (0)[1268:watchdog][Hang_Detect] hang_detect enabled 10
+[ 4453.860883] -(0)[0:swapper/0][Power/swap]CNT(dpidle,rgidle): [0] = (381,1151457), [1] = (0,768479), [2] = (0,623237), [3] = (0,407654), 
+[ 4453.860921] -(0)[0:swapper/0][Power/swap]dpidle_block_cnt: [by_cpu] = 2164, [by_clk] = 3510, [by_tmr] = 0, [by_oth] = 0, [by_vtg] = 0, 
+[ 4453.860946] -(0)[0:swapper/0][Power/swap]dpidle_block_mask: 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00002000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 
+[ 4453.967089] -(0)[0:swapper/0][Power/swap]DP: No enter --- SODI: No enter --- 
+[ 4454.847410]  (0)[151:bat_thread_kthr]AvgVbat=(3982,3993),AvgI=(472,470),VChr=4797,AvgT=(30,30),SOC=(54,54),UI_SOC=54,ZCV=3695,CHR_Type=1 bcct:0:0 I:45000 Ibat:883
+[ 4454.847503] [BATTERY] CC mode charge, timer=4160 on 4170 !!
+
+[ 4455.850954]  (0)[151:bat_thread_kthr][BATTERY] Default CC mode charging : 50000
+[ 4455.851011]  (0)[151:bat_thread_kthr][charging_set_cv_voltage] [0xc]=0x5, [0x6]=0x9
+[ 4455.851028]  (0)[151:bat_thread_kthr][BATTERY] pchr_turn_on_charging(), enable =1 
+[ 4455.851104]  (0)[151:bat_thread_kthr]UI_SOC=(54), resetBatteryMeter=(0)
+[ 4455.851125] -(0)[151:bat_thread_kthr]mtk_rtc_hal_common: rtc_spare_reg[0] = {32796, 127, 8}
+[ 4456.062169]  (0)[280:batterywarning][Battery] show_BatteryNotify : 0
+[ 4458.868657] -(0)[0:swapper/0][Power/swap]CNT(soidle,rgidle): [0] = (15,1151896), [1] = (0,768479), [2] = (0,623237), [3] = (0,407654), 
+[ 4458.868695] -(0)[0:swapper/0][Power/swap]soidle_block_cnt: [by_cpu] = 653, [by_clk] = 0, [by_tmr] = 0, [by_oth] = 2941, [by_vtg] = 0, 
+[ 4458.868720] -(0)[0:swapper/0][Power/swap]soidle_block_mask: 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00002000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 
+[ 4463.971221] -(0)[0:swapper/0][Power/swap]DP: No enter --- SODI: No enter --- 
+[ 4464.730864]  (0)[154:wdtk-0][WDK]: kick Ex WDT,RT[4464730846781]
+[ 4464.843349]  (0)[151:bat_thread_kthr]AvgVbat=(3982,3994),AvgI=(472,475),VChr=4797,AvgT=(30,30),SOC=(54,54),UI_SOC=54,ZCV=3695,CHR_Type=1 bcct:0:0 I:45000 Ibat:896
+[ 4464.843437] [BATTERY] CC mode charge, timer=4170 on 4180 !!
+
+[ 4465.850960]  (0)[151:bat_thread_kthr][BATTERY] Default CC mode charging : 50000
+[ 4465.851017]  (0)[151:bat_thread_kthr][charging_set_cv_voltage] [0xc]=0x5, [0x6]=0x9
+[ 4465.851034]  (0)[151:bat_thread_kthr][BATTERY] pchr_turn_on_charging(), enable =1 
+[ 4465.851111]  (0)[151:bat_thread_kthr]UI_SOC=(54), resetBatteryMeter=(0)
+[ 4465.851132] -(0)[151:bat_thread_kthr]mtk_rtc_hal_common: rtc_spare_reg[0] = {32796, 127, 8}
+[ 4466.062469]  (0)[280:batterywarning][Battery] show_BatteryNotify : 0
+[ 4472.080857]  (0)[118:hang_detect][Hang_Detect] init found pid:1.
+[ 4472.080953]  (0)[118:hang_detect][Hang_Detect] mmcqd/0 found pid:131.
+[ 4472.080978]  (0)[118:hang_detect][Hang_Detect] mmcqd/1 found pid:146.
+[ 4472.081015]  (0)[118:hang_detect][Hang_Detect] surfaceflinger found pid:250.
+[ 4472.081051]  (0)[118:hang_detect][Hang_Detect] debuggerd found pid:430.
+[ 4472.081075]  (0)[118:hang_detect][Hang_Detect] system_server found pid:1032.
+[ 4472.081090]  (0)[118:hang_detect][Hang_Detect] ndroid.systemui found pid:1178.
+[ 4472.081131]  (0)[118:hang_detect][Hang_Detect] hang_detect thread counts down 10:10.
+[ 4473.981456] -(0)[0:swapper/0][Power/swap]DP: No enter --- SODI: No enter --- 
+[ 4474.842347]  (0)[151:bat_thread_kthr]AvgVbat=(3982,3994),AvgI=(472,470),VChr=4797,AvgT=(30,30),SOC=(54,54),UI_SOC=54,ZCV=3695,CHR_Type=1 bcct:0:0 I:45000 Ibat:909
+[ 4474.842439] [BATTERY] CC mode charge, timer=4180 on 4190 !!
+
+[ 4475.850953]  (0)[151:bat_thread_kthr][BATTERY] Default CC mode charging : 50000
+[ 4475.851011]  (0)[151:bat_thread_kthr][charging_set_cv_voltage] [0xc]=0x5, [0x6]=0x9
+[ 4475.851027]  (0)[151:bat_thread_kthr][BATTERY] pchr_turn_on_charging(), enable =1 
+[ 4475.851102]  (0)[151:bat_thread_kthr]UI_SOC=(54), resetBatteryMeter=(0)
+[ 4475.851124] -(0)[151:bat_thread_kthr]mtk_rtc_hal_common: rtc_spare_reg[0] = {32796, 127, 8}
+[ 4476.062763]  (0)[280:batterywarning][Battery] show_BatteryNotify : 0
+[ 4481.724782]  (0)[1268:watchdog]AEEIOCTL_RT_MON_Kick ( 300)
+[ 4481.724815]  (0)[1268:watchdog][Hang_Detect] hang_detect enabled 10
+[ 4483.866542] -(0)[0:swapper/0][Power/swap]CNT(dpidle,rgidle): [0] = (381,1153952), [1] = (0,768479), [2] = (0,623237), [3] = (0,407654), 
+[ 4483.866581] -(0)[0:swapper/0][Power/swap]dpidle_block_cnt: [by_cpu] = 0, [by_clk] = 2495, [by_tmr] = 0, [by_oth] = 0, [by_vtg] = 0, 
+[ 4483.866606] -(0)[0:swapper/0][Power/swap]dpidle_block_mask: 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00002000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 
+[ 4483.987033] -(0)[0:swapper/0][Power/swap]DP: No enter --- SODI: No enter --- 
+[ 4484.740871]  (0)[154:wdtk-0][WDK]: kick Ex WDT,RT[4484740853367]
+[ 4484.844960]  (0)[151:bat_thread_kthr]AvgVbat=(3982,3996),AvgI=(472,470),VChr=4806,AvgT=(30,30),SOC=(54,54),UI_SOC=54,ZCV=3695,CHR_Type=1 bcct:0:0 I:45000 Ibat:916
+[ 4484.845051] [BATTERY] CC mode charge, timer=4190 on 4200 !!
+
+[ 4485.850954]  (0)[151:bat_thread_kthr][BATTERY] Default CC mode charging : 50000
+[ 4485.851011]  (0)[151:bat_thread_kthr][charging_set_cv_voltage] [0xc]=0x5, [0x6]=0x9
+[ 4485.851027]  (0)[151:bat_thread_kthr][BATTERY] pchr_turn_on_charging(), enable =1 
+[ 4485.851103]  (0)[151:bat_thread_kthr]UI_SOC=(54), resetBatteryMeter=(0)
+[ 4485.851124] -(0)[151:bat_thread_kthr]mtk_rtc_hal_common: rtc_spare_reg[0] = {32796, 127, 8}
+[ 4485.852477]  (0)[238:healthd]healthd: Unknown battery status '3'
+[ 4485.853218]  (0)[238:healthd]healthd: battery l=54 v=3982 t=30.0 h=2 st=2 chg=u
+[ 4485.853252]  (0)[238:healthd]healthd: battery l=54 v=3982 t=30.0 h=2 st=2 chg=u
+[ 4485.853358]  (0)[238:healthd]healthd: send_already = 0
+[ 4486.063053]  (0)[280:batterywarning][Battery] show_BatteryNotify : 0
+[ 4488.888795] -(0)[0:swapper/0][Power/swap]CNT(soidle,rgidle): [0] = (15,1154408), [1] = (0,768479), [2] = (0,623237), [3] = (0,407654), 
+[ 4488.888832] -(0)[0:swapper/0][Power/swap]soidle_block_cnt: [by_cpu] = 0, [by_clk] = 0, [by_tmr] = 0, [by_oth] = 2512, [by_vtg] = 0, 
+[ 4488.888857] -(0)[0:swapper/0][Power/swap]soidle_block_mask: 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00002000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 
+[ 4493.989294] -(0)[0:swapper/0][Power/swap]DP: No enter --- SODI: No enter --- 
+[ 4494.852791]  (0)[151:bat_thread_kthr]AvgVbat=(3982,3995),AvgI=(472,465),VChr=4797,AvgT=(30,30),SOC=(54,54),UI_SOC=54,ZCV=3695,CHR_Type=1 bcct:0:0 I:45000 Ibat:883
+[ 4494.852884] [BATTERY] CC mode charge, timer=4200 on 4210 !!
+
+[ 4495.860955]  (0)[151:bat_thread_kthr][BATTERY] Default CC mode charging : 50000
+[ 4495.861013]  (0)[151:bat_thread_kthr][charging_set_cv_voltage] [0xc]=0x5, [0x6]=0x9
+[ 4495.861029]  (0)[151:bat_thread_kthr][BATTERY] pchr_turn_on_charging(), enable =1 
+[ 4495.861106]  (0)[151:bat_thread_kthr]UI_SOC=(54), resetBatteryMeter=(0)
+[ 4495.861127] -(0)[151:bat_thread_kthr]mtk_rtc_hal_common: rtc_spare_reg[0] = {32796, 127, 8}
+[ 4496.063353]  (0)[280:batterywarning][Battery] show_BatteryNotify : 0
+[ 4498.317098]  (0)[95:hps_main]Boot slave CPU
+[ 4498.317392] -(1)[0:swapper/1]CPU1: Booted secondary processor
+[ 4498.317522] -(1)[0:swapper/1]CPU1: thread -1, cpu 1, socket 0, mpidr 80000001
+[ 4498.318186]  (0)[95:hps_main]Boot slave CPU
+[ 4498.318454] -(2)[0:swapper/2]CPU2: Booted secondary processor
+[ 4498.318574] -(2)[0:swapper/2]CPU2: thread -1, cpu 2, socket 0, mpidr 80000002
+[ 4498.319248]  (0)[95:hps_main]Boot slave CPU
+[ 4498.319539] -(3)[0:swapper/3]CPU3: Booted secondary processor
+[ 4498.319682] -(3)[0:swapper/3]CPU3: thread -1, cpu 3, socket 0, mpidr 80000003
+[ 4498.320324]  (0)[95:hps_main][HPS] (0002)(1)action end(22)(29)(0)(0) (4)(4)(4)(4)(4) (3)(148)(0) (0)(0)(0) (0)(0)(148)(0)(0)
+[ 4501.511942]  (1)[95:hps_main]CPU3: shutdown
+[ 4501.513975]  (1)[95:hps_main]CPU2: shutdown
+[ 4501.515895]  (0)[95:hps_main]CPU1: shutdown
+[ 4501.517028]  (0)[95:hps_main][HPS] (0200)(4)action end(0)(0)(0)(0) (4)(4)(4)(4)(1) (0)(0)(0) (140)(8)(0) (0)(0)(8)(0)(0)
+[ 4502.090854]  (0)[118:hang_detect][Hang_Detect] init found pid:1.
+[ 4502.090945]  (0)[118:hang_detect][Hang_Detect] mmcqd/0 found pid:131.
+[ 4502.090970]  (0)[118:hang_detect][Hang_Detect] mmcqd/1 found pid:146.
+[ 4502.091007]  (0)[118:hang_detect][Hang_Detect] surfaceflinger found pid:250.
+[ 4502.091040]  (0)[118:hang_detect][Hang_Detect] debuggerd found pid:430.
+[ 4502.091064]  (0)[118:hang_detect][Hang_Detect] system_server found pid:1032.
+[ 4502.091080]  (0)[118:hang_detect][Hang_Detect] ndroid.systemui found pid:1178.
+[ 4502.091120]  (0)[118:hang_detect][Hang_Detect] hang_detect thread counts down 10:10.
+[ 4503.991403] -(0)[0:swapper/0][Power/swap]DP: No enter --- SODI: No enter --- 
+[ 4504.750870]  (0)[154:wdtk-0][WDK]: kick Ex WDT,RT[4504750846569]
+[ 4504.843280]  (0)[151:bat_thread_kthr]AvgVbat=(3983,3998),AvgI=(472,475),VChr=4797,AvgT=(30,30),SOC=(54,54),UI_SOC=54,ZCV=3695,CHR_Type=1 bcct:0:0 I:45000 Ibat:890
+[ 4504.843369] [BATTERY] CC mode charge, timer=4210 on 4220 !!
+
+[ 4505.850947]  (0)[151:bat_thread_kthr][BATTERY] Default CC mode charging : 50000
+[ 4505.851004]  (0)[151:bat_thread_kthr][charging_set_cv_voltage] [0xc]=0x5, [0x6]=0x9
+[ 4505.851021]  (0)[151:bat_thread_kthr][BATTERY] pchr_turn_on_charging(), enable =1 
+[ 4505.851098]  (0)[151:bat_thread_kthr]UI_SOC=(54), resetBatteryMeter=(0)
+[ 4505.851119] -(0)[151:bat_thread_kthr]mtk_rtc_hal_common: rtc_spare_reg[0] = {32796, 127, 8}
+[ 4506.063649]  (0)[280:batterywarning][Battery] show_BatteryNotify : 0
+[ 4511.725693]  (0)[1268:watchdog]AEEIOCTL_RT_MON_Kick ( 300)
+[ 4511.725726]  (0)[1268:watchdog][Hang_Detect] hang_detect enabled 10
+[ 4513.883687] -(0)[0:swapper/0][Power/swap]CNT(dpidle,rgidle): [0] = (381,1156559), [1] = (0,768861), [2] = (0,623469), [3] = (0,407832), 
+[ 4513.883724] -(0)[0:swapper/0][Power/swap]dpidle_block_cnt: [by_cpu] = 1036, [by_clk] = 2359, [by_tmr] = 0, [by_oth] = 0, [by_vtg] = 0, 
+[ 4513.883748] -(0)[0:swapper/0][Power/swap]dpidle_block_mask: 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00002000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 
+[ 4514.000828] -(0)[0:swapper/0][Power/swap]DP: No enter --- SODI: No enter --- 
+[ 4514.850955]  (0)[151:bat_thread_kthr]AvgVbat=(3983,3999),AvgI=(472,470),VChr=4806,AvgT=(30,30),SOC=(55,55),UI_SOC=54,ZCV=3695,CHR_Type=1 bcct:0:0 I:45000 Ibat:916
+[ 4514.851048] [BATTERY] CC mode charge, timer=4220 on 4230 !!
+
+[ 4515.860951]  (0)[151:bat_thread_kthr][BATTERY] Default CC mode charging : 50000
+[ 4515.861006]  (0)[151:bat_thread_kthr][charging_set_cv_voltage] [0xc]=0x5, [0x6]=0x9
+[ 4515.861023]  (0)[151:bat_thread_kthr][BATTERY] pchr_turn_on_charging(), enable =1 
+[ 4515.861098]  (0)[151:bat_thread_kthr]UI_SOC=(55), resetBatteryMeter=(0)
+[ 4515.861120] -(0)[151:bat_thread_kthr]mtk_rtc_hal_common: rtc_spare_reg[0] = {32796, 127, 8}
+[ 4515.862572]  (0)[238:healthd]healthd: Unknown battery status '3'
+[ 4515.863308]  (0)[238:healthd]healthd: battery l=55 v=3983 t=30.0 h=2 st=2 chg=u
+[ 4515.863341]  (0)[238:healthd]healthd: battery l=55 v=3983 t=30.0 h=2 st=2 chg=u
+[ 4515.863447]  (0)[238:healthd]healthd: send_already = 0
+[ 4516.064075]  (0)[280:batterywarning][Battery] show_BatteryNotify : 0
+[ 4518.895309] -(0)[0:swapper/0][Power/swap]CNT(soidle,rgidle): [0] = (15,1156987), [1] = (0,768861), [2] = (0,623469), [3] = (0,407832), 
+[ 4518.895346] -(0)[0:swapper/0][Power/swap]soidle_block_cnt: [by_cpu] = 248, [by_clk] = 0, [by_tmr] = 0, [by_oth] = 2331, [by_vtg] = 0, 
+[ 4518.895370] -(0)[0:swapper/0][Power/swap]soidle_block_mask: 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00002000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 
+[ 4520.250902]  (0)[51:pmic_thread][PMIC] [PMIC_INT] addr[0x172]=0x20
+[ 4520.250938]  (0)[51:pmic_thread][PMIC] [pwrkey_int_handler] Press pwrkey
+[ 4520.250954]  (0)[51:pmic_thread]kpd: Power Key generate, pressed=1
+[ 4520.251008]  (0)[51:pmic_thread]kpd: kpd: (pressed) HW keycode =116 using PMIC
+[ 4520.251040]  (0)[51:pmic_thread][PMIC] [PMIC_INT] addr[0x174]=0x0
+[ 4520.314638]  (0)[250:surfaceflinger]DISP/MTKFB [FB Driver] enter late_resume
+[ 4520.350948]  (0)[51:pmic_thread][PMIC] [PMIC_INT] addr[0x172]=0x20
+[ 4520.350961]  (0)[51:pmic_thread]kpd: Power Key generate, pressed=0
+[ 4520.351007]  (0)[51:pmic_thread]kpd: kpd: (released) HW keycode =116 using PMIC
+[ 4520.351029]  (0)[51:pmic_thread][PMIC] [PMIC_INT] addr[0x174]=0x0
+[ 4520.363865]  (0)[1042:Binder:1032_1]<ALS/PS> ps_store_active buf=1
+[ 4520.363874]  (0)[1042:Binder:1032_1]<ALS/PS> PS enable data
+[ 4520.382736]  (0)[1042:Binder:1032_1]<ALS/PS> ps real enable
+[ 4520.382746]  (0)[1042:Binder:1032_1]<ALS/PS>  ps_store_active done
+[ 4520.383283]  (0)[1042:Binder:1032_1]<ALS/PS>  ps_delay 20000000 ns
+[ 4520.661392]  (0)[250:surfaceflinger][CMDQ]======REC 0xe1e6e000 command buffer:
+[ 4520.661411]  (0)[250:surfaceflinger]e1e6e000: 80008001 2000001b 80008001 20000026
+[ 4520.661421]  (0)[250:surfaceflinger]e1e6e010: 00000004 0141c74c 00000000 40000000
+[ 4520.661429]  (0)[250:surfaceflinger]e1e6e020: ffffffe0 10000000
+[ 4520.661436]  (0)[250:surfaceflinger][CMDQ]======REC 0xe1e6e000 command buffer END
+[ 4520.661441]  (0)[250:surfaceflinger][CMDQ]REC 0xe1e6e000 command buffer TRANSLATED:
+[ 4520.661455]  (0)[250:surfaceflinger][CMDQ]Wait And Clear Event: CMDQ_EVENT_DISP_RDMA0_EOF
+[ 4520.661465]  (0)[250:surfaceflinger][CMDQ]Wait And Clear Event: CMDQ_EVENT_MUTEX0_STREAM_EOF
+[ 4520.661480]  (0)[250:surfaceflinger][CMDQ]READ: Reg4, addr=0x1400c74c [COLOR], use_mask=0
+[ 4520.661491]  (0)[250:surfaceflinger][CMDQ]MARKER: sync_no_suspnd=0no_suspnd=0, no_inc=0, m=0, m_en=0, prefetch=0, irq=0
+[ 4520.661498]  (0)[250:surfaceflinger][CMDQ]JUMP(relative): -32
+[ 4520.661504]  (0)[250:surfaceflinger][CMDQ]======REC 0xe1e6e000 command END
+[ 4520.661705]  (0)[250:surfaceflinger]DISP/MTKFB [FB Driver] leave late_resume
+[ 4520.661885]  (0)[250:surfaceflinger]mtk-tpd: fb_notify(blank=0)
+[ 4520.661894]  (0)[250:surfaceflinger]mtk-tpd: LCD ON Notify
+[ 4520.661939]  (0)[250:surfaceflinger][HIF-SDIO][W]wmt_fb_notifier_callback:@@@@@@@@@@wmt enter UNBLANK @@@@@@@@@@@@@@
+[ 4520.666645]  (0)[27537:kworker/u8:3]mtk-tpd: TPD wake up
+[ 4520.666760]  (0)[27479:kworker/0:2][HIF-SDIO][I]mtk_wcn_wmt_func_ctrl:wmt-exp: OPID(3) type(9) start
+[ 4520.667195] AEE_MONITOR_SET[status]: 0x1
+[ 4520.691103]  (0)[254:mtk_wmtd][WMT-CORE][I]wmt_core_dump_func_state:[AF FUNC ON]status(b:0 f:0 g:0 w:2 lpbk:2 coredump:0 wmt:2 ant:0 sd1:0 sd2:0 stp:0)
+[ 4520.691249]  (0)[27479:kworker/0:2][HIF-SDIO][I]mtk_wcn_wmt_func_ctrl:OPID(3) type(9) ok
+[ 4520.691280]  (0)[27479:kworker/0:2][HIF-SDIO][I]wmt_pwr_on_off_handler:WMT turn on LPBK suceed
+[ 4520.711204]  (0)[95:hps_main]Boot slave CPU
+[ 4520.711579] -(1)[0:swapper/1]CPU1: Booted secondary processor
+[ 4520.711743] -(1)[0:swapper/1]CPU1: thread -1, cpu 1, socket 0, mpidr 80000001
+[ 4520.712651]  (0)[95:hps_main]Boot slave CPU
+[ 4520.713011] -(2)[0:swapper/2]CPU2: Booted secondary processor
+[ 4520.713161] -(2)[0:swapper/2]CPU2: thread -1, cpu 2, socket 0, mpidr 80000002
+[ 4520.714074]  (0)[95:hps_main]Boot slave CPU
+[ 4520.714459] -(3)[0:swapper/3]CPU3: Booted secondary processor
+[ 4520.714619] -(3)[0:swapper/3]CPU3: thread -1, cpu 3, socket 0, mpidr 80000003
+[ 4520.715516]  (0)[95:hps_main][HPS] (0020)(1)action end(100)(1143)(0)(1) (4)(4)(4)(4)(1) (16)(47)(1) (0)(0)(0) (1)(1143)(48)(0)(1143)
+[ 4520.792872]  (2)[1128:PhotonicModulat][PWM] disp_pwm_set_backlight_cmdq(id = 0x1, level_1024 = 48), old = 0
+[ 4520.792961]  (2)[1128:PhotonicModulat][PWM] backlight is on (48), ddp_pwm power:(1)
+[ 4520.944227]  (2)[27537:kworker/u8:3]mtk-tpd: TPD wake up done
+[ 4521.667520] AEE_MONITOR_SET[status]: 0x1
+[ 4521.995232]  (0)[197:logd.writer]logd:diff 185934062011, run 91490424, count 5000,step 1 3089,2 1764,3 5259,4 8184. filter count 0.
+[ 4522.667874] AEE_MONITOR_SET[status]: 0x1
+[ 4523.668209]  (0)[427:SWWatchDog]AEE_MONITOR_SET[status]: 0x1[ 4523.911987]  (0)[95:hps_main]CPU3: shutdown
+[ 4523.914408]  (0)[95:hps_main]CPU2: shutdown
+[ 4523.916841]  (0)[95:hps_main]CPU1: shutdown
+[ 4523.918176]  (0)[95:hps_main][HPS] (0200)(4)action end(4)(4)(0)(0) (4)(4)(4)(4)(1) (0)(0)(0) (473)(8)(0) (0)(4)(8)(0)(4)
+[ 4524.004286] -(0)[0:swapper/0][Power/swap]DP: No enter --- SODI: No enter --- 
+[ 4524.104016]  (0)[95:hps_main]Boot slave CPU
+[ 4524.104332] -(1)[0:swapper/1]CPU1: Booted secondary processor
+[ 4524.104469] -(1)[0:swapper/1]CPU1: thread -1, cpu 1, socket 0, mpidr 80000001
+[ 4524.105206]  (0)[95:hps_main]Boot slave CPU
+[ 4524.105503] -(2)[0:swapper/2]CPU2: Booted secondary processor
+[ 4524.105627] -(2)[0:swapper/2]CPU2: thread -1, cpu 2, socket 0, mpidr 80000002
+[ 4524.106246]  (1)[95:hps_main][HPS] (0002)(1)action end(7)(13)(0)(0) (4)(4)(4)(4)(3) (0)(0)(0) (0)(0)(0) (0)(0)(0)(0)(4)
+[ 4524.400385]  (0)[3145:Binder:1032_D]<ALS/PS> ps_store_active buf=0
+[ 4524.400435]  (0)[3145:Binder:1032_D]<ALS/PS> PS disable
+[ 4524.422358]  (2)[3145:Binder:1032_D]<ALS/PS> ps real disable
+[ 4524.422401]  (2)[3145:Binder:1032_D]<ALS/PS>  ps_store_active done
+[ 4524.541284]  (1)[200:logd.auditd]type=1400 audit(1585769068.340:10041): avc: denied { read } for pid=27574 comm="main" name="u:object_r:persist_mtk_main_attach:s0" dev="tmpfs" ino=47 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:persist_mtk_main_attach:s0 tclass=file permissive=0
+[ 4524.549246]  (1)[200:logd.auditd]type=1400 audit(1585769068.350:10042): avc: denied { read } for pid=27574 comm="main" name="u:object_r:mtk_em_ril_apnchange_prop:s0" dev="tmpfs" ino=73 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:mtk_em_ril_apnchange_prop:s0 tclass=file permissive=0
+[ 4524.551976]  (1)[200:logd.auditd]type=1400 audit(1585769068.350:10043): avc: denied { read } for pid=27574 comm="main" name="u:object_r:cdfinger_prop:s0" dev="tmpfs" ino=107 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:cdfinger_prop:s0 tclass=file permissive=0
+[ 4524.552772]  (1)[200:logd.auditd]type=1400 audit(1585769068.350:10044): avc: denied { read } for pid=27574 comm="main" name="u:object_r:safemode_prop:s0" dev="tmpfs" ino=3114 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:safemode_prop:s0 tclass=file permissive=0
+[ 4524.553362]  (1)[200:logd.auditd]type=1400 audit(1585769068.350:10045): avc: denied { read } for pid=27574 comm="main" name="u:object_r:mmc_prop:s0" dev="tmpfs" ino=3115 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:mmc_prop:s0 tclass=file permissive=0
+[ 4524.553751]  (1)[200:logd.auditd]type=1400 audit(1585769068.350:10046): avc: denied { read } for pid=27574 comm="main" name="u:object_r:device_logging_prop:s0" dev="tmpfs" ino=3116 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:device_logging_prop:s0 tclass=file permissive=0
+[ 4524.668732] AEE_MONITOR_SET[status]: 0x1
+[ 4524.760909]  (0)[154:wdtk-0][WDK]: kick Ex WDT,RT[4524760877847]
+[ 4524.861001]  (0)[151:bat_thread_kthr]AvgVbat=(3981,3930),AvgI=(470,435),VChr=4806,AvgT=(30,30),SOC=(55,55),UI_SOC=55,ZCV=3695,CHR_Type=1 bcct:0:0 I:45000 Ibat:132
+[ 4524.861113] [BATTERY] CC mode charge, timer=4230 on 4240 !!
+
+[ 4525.669132]  (0)[427:SWWatchDog]AEE_MONITOR_SET[status]: 0x1[ 4525.870976]  (1)[151:bat_thread_kthr][BATTERY] Default CC mode charging : 50000
+[ 4525.871033]  (1)[151:bat_thread_kthr][charging_set_cv_voltage] [0xc]=0x5, [0x6]=0x9
+[ 4525.871052]  (1)[151:bat_thread_kthr][BATTERY] pchr_turn_on_charging(), enable =1 
+[ 4525.871133]  (1)[151:bat_thread_kthr]UI_SOC=(55), resetBatteryMeter=(0)
+[ 4525.871156] -(1)[151:bat_thread_kthr]mtk_rtc_hal_common: rtc_spare_reg[0] = {32796, 127, 8}
+[ 4526.064432]  (0)[280:batterywarning][Battery] show_BatteryNotify : 0
+[ 4526.669460] AEE_MONITOR_SET[status]: 0x1
+[ 4526.776289]  (0)[95:hps_main]Boot slave CPU
+[ 4526.776697] -(3)[0:swapper/3]CPU3: Booted secondary processor
+[ 4526.776899] -(3)[0:swapper/3]CPU3: thread -1, cpu 3, socket 0, mpidr 80000003
+[ 4526.777766]  (0)[95:hps_main][HPS] (0002)(3)action end(65)(84)(0)(0) (4)(4)(4)(4)(4) (24)(6)(0) (692)(6)(6) (0)(40)(6)(0)(40)
+[ 4527.669747] AEE_MONITOR_SET[status]: 0x1
+[ 4528.670043]  (0)[427:SWWatchDog]AEE_MONITOR_SET[status]: 0x1[ 4529.470961]  (0)[1:init]Reboot Process(adbd:309).
+[ 4529.517210] SysRq : Emergency Remount R/O
+[ 4529.523002]  (1)[13:kworker/1:0]EXT4-fs (mmcblk0p13): re-mounted. Opts: (null)
+[ 4529.531967]  (1)[13:kworker/1:0]EXT4-fs (mmcblk0p4): re-mounted. Opts: (null)
+[ 4529.533972]  (1)[13:kworker/1:0]EXT4-fs (mmcblk0p3): re-mounted. Opts: (null)
+[ 4529.537225]  (1)[13:kworker/1:0]EXT4-fs (mmcblk0p19): re-mounted. Opts: (null)
+[ 4529.670373] AEE_MONITOR_SET[status]: 0x1
+[ 4529.773616]  (1)[13:kworker/1:0]EXT4-fs (mmcblk0p20): re-mounted. Opts: (null)
+[ 4529.822476]  (1)[13:kworker/1:0]Emergency Remount complete
+[ 4529.846000]  (0)[1:init]battery battery: shutdown
+[ 4529.846041]  (0)[1:init]mmcblk mmc1:0001: shutdown
+[ 4529.846096] [sd]msdc1 select card<0x00000000>
+[ 4529.846176]  (0)[1:init][sd]msdc LDO<0><3000> power on again!
+[ 4529.856223] [sd]msdc1 -> !!! Set<0 Hz>
+[ 4529.857338]  (0)[1:init]mmcblk mmc0:0001: shutdown
+[ 4529.861585]  (0)[1:init]battery_meter battery_meter: shutdown
+[ 4529.861698]  (0)[1:init]ap_ccif0 ap_ccif0: shutdown
+[ 4529.861731]  (0)[1:init]mtk_disp_mgr mtk_disp_mgr.0: shutdown
+[ 4529.861757]  (0)[1:init]mtk_vibrator mtk_vibrator: shutdown
+[ 4529.861777]  (0)[1:init]leds-mt65xx leds-mt65xx: shutdown
+[ 4529.861887]  (0)[1:init][PWM] disp_pwm_set_backlight_cmdq(id = 0x1, level_1024 = 0), old = 48
+[ 4529.861920]  (0)[1:init]i2c 2-0013: shutdown
+[ 4529.861936]  (0)[1:init]i2c 2-0068: shutdown
+[ 4529.861951]  (0)[1:init]EPL259x 2-004a: shutdown
+[ 4529.861965]  (0)[1:init]i2c 2-0069: shutdown
+[ 4529.861980]  (0)[1:init]MXC4000000 2-0015: shutdown
+[ 4529.861995]  (0)[1:init]i2c 2-002c: shutdown
+[ 4529.862009]  (0)[1:init]i2c 2-0063: shutdown
+[ 4529.862023]  (0)[1:init]i2c i2c-2: shutdown
+[ 4529.862038]  (0)[1:init]i2c 1-006a: shutdown
+[ 4529.862052]  (0)[1:init]i2c 1-0038: shutdown
+[ 4529.862067]  (0)[1:init]i2c 1-0060: shutdown
+[ 4529.862082]  (0)[1:init]msg2xxx 1-005d: shutdown
+[ 4529.862096]  (0)[1:init]i2c i2c-1: shutdown
+[ 4529.862112]  (0)[1:init]kd_camera_hw_bus2 0-0036: shutdown
+[ 4529.862127]  (0)[1:init]MAINAF 0-000c: shutdown
+[ 4529.862141]  (0)[1:init]kd_camera_hw 0-0010: shutdown
+[ 4529.862156]  (0)[1:init]i2c i2c-0: shutdown
+[ 4529.862240]  (0)[1:init]musb-hdrc musb-hdrc.0.auto: shutdown
+[ 4529.863151]  (0)[1:init]mt-pmic mt-pmic: shutdown
+[ 4529.863165]  (0)[1:init][PMIC] ******** MT pmic driver shutdown!! ********
+[ 4529.863228]  (0)[1:init]kd_camera_flashlight bus:gpio_flashlight: shutdown
+[ 4529.863247]  (0)[1:init]mtkfb bus:mtkfb@0: shutdown
+[ 4529.863258]  (0)[1:init]DISP/MTKFB [FB Driver] mtkfb_shutdown()
+[ 4529.971879]  (0)[95:hps_main]CPU3: shutdown
+[ 4529.974475]  (1)[95:hps_main]CPU2: shutdown
+[ 4529.977416]  (0)[95:hps_main]CPU1: shutdown
+[ 4529.979287]  (0)[95:hps_main][HPS] (0200)(4)action end(91)(85)(1)(0) (4)(4)(4)(4)(1) (0)(0)(0) (493)(8)(0) (0)(85)(8)(0)(85)
+[ 4530.231000]  (0)[1:init][PWM] backlight is off, ddp_pwm power:(0)
+[ 4530.238703]  (0)[1:init]DISP/MTKFB [FB Driver] leave mtkfb_shutdown
+[ 4530.238893]  (0)[1:init]DISPSYS 14000000.DISPSYS: shutdown
+[ 4530.239067]  (0)[1:init]mt-pwm 11008000.PWM: shutdown
+[ 4530.239185]  (0)[1:init]ap_ccif0 1000c000.ap_ccif0: shutdown
+[ 4530.239227]  (0)[1:init]mtk-wdt 10007000.TOPRGU: shutdown
+[ 4530.239320]  (0)[1:init]reboot: Restarting system with command 'bootloader'
+[ 4530.239346] -(0)[1:init]machine_restart, arm_pm_restart(  (null))
+[ 4530.239369] -(0)[1:init]ARCH_RESET happen!!!
+[ 4530.239390] -(0)[1:init]arch_reset: cmd = bootloader
+[ 4530.239421] -(0)[1:init]CPU: 0 PID: 1 Comm: init Tainted: G        W      3.18.35+ #2
+[ 4530.239439] Backtrace: 
+[ 4530.239500] -(0)[1:init][<c010badc>] (dump_backtrace) from [<c010bc7c>] (show_stack+0x18/0x1c)
+[ 4530.239521]  r6:c103d790 r5:ffffffff r4:00000000 r3:00000000
+[ 4530.239597] -(0)[1:init][<c010bc64>] (show_stack) from [<c0a9a5cc>] (dump_stack+0x90/0xa4)
+[ 4530.239634] -(0)[1:init][<c0a9a53c>] (dump_stack) from [<c07f6dec>] (arch_reset+0x3c/0x10c)
+[ 4530.239653]  r8:c10f9b68 r7:ffffffff r6:00000000 r5:de84be88 r4:c1089054 r3:00000000
+[ 4530.239743] -(0)[1:init][<c07f6db0>] (arch_reset) from [<c07f6ee8>] (mtk_arch_reset_handle+0x2c/0x40)
+[ 4530.239762]  r7:ffffffff r6:00000000 r5:de84be88 r4:00000000
+[ 4530.239838] -(0)[1:init][<c07f6ebc>] (mtk_arch_reset_handle) from [<c013e6c8>] (notifier_call_chain+0x9c/0x340)
+[ 4530.239858]  r5:de84be88 r4:c135b6d8
+[ 4530.239910] -(0)[1:init][<c013e62c>] (notifier_call_chain) from [<c013eaf4>] (atomic_notifier_call_chain+0x3c/0x50)
+[ 4530.239929]  r10:00000000 r9:de84a000 r8:c01071a4 r7:fee1dead r6:c10f9b64 r5:00000000
+[ 4530.240001]  r4:de84be88
+[ 4530.240044] -(0)[1:init][<c013eab8>] (atomic_notifier_call_chain) from [<c013fea0>] (do_kernel_restart+0x24/0x2c)
+[ 4530.240064]  r6:b60fb607 r5:de84be88 r4:c10f8a68
+[ 4530.240128] -(0)[1:init][<c013fe7c>] (do_kernel_restart) from [<c0108720>] (machine_restart+0x90/0x94)
+[ 4530.240162] -(0)[1:init][<c0108690>] (machine_restart) from [<c013ff88>] (kernel_restart+0x44/0x58)
+[ 4530.240181]  r5:0000000a r4:de84be88
+[ 4530.240233] -(0)[1:init][<c013ff44>] (kernel_restart) from [<c0140334>] (SyS_reboot+0x18c/0x1c0)
+[ 4530.240252]  r4:c102bd8c r3:00000000
+[ 4530.240305] -(0)[1:init][<c01401a8>] (SyS_reboot) from [<c0107000>] (ret_fast_syscall+0x0/0x38)
+[ 4530.240324]  r7:00000058 r6:00000000 r5:dead0003 r4:b60fb607
+[ 4530.240386] -(0)[1:init]mtk_rtc_common: rtc_mark_fast
+[ 4530.240418] -(0)[1:init]mtk_rtc_hal_common: rtc_spare_reg[5] = {32812, 1, 13}
+[ 4530.240647] -(0)[1:init]****************dump wdt reg start*************
+[ 4530.240669] -(0)[1:init]MTK_WDT_MODE:0x4
+[ 4530.240690] -(0)[1:init]MTK_WDT_LENGTH:0xf000
+>  268.531068< @@@@@@@@@@@@@@@@@@@@	Chip_pm_prepare	@@@@@@@@@@@@@@@@@@@@
+>  268.539877< @@@@@@@@@@@@@@@@@@@@	Chip_pm_enter	@@@@@@@@@@@@@@@@@@@@
+>  268.545717< @@@@@@@@@@@@@@@@@@@@	Chip_pm_finish	@@@@@@@@@@@@@@@@@@@@
+>  269.083592< @@@@@@@@@@@@@@@@@@@@	Chip_pm_prepare	@@@@@@@@@@@@@@@@@@@@
+>  269.094693< @@@@@@@@@@@@@@@@@@@@	Chip_pm_enter	@@@@@@@@@@@@@@@@@@@@
+>  269.101285< @@@@@@@@@@@@@@@@@@@@	Chip_pm_finish	@@@@@@@@@@@@@@@@@@@@
+>  270.702965< @@@@@@@@@@@@@@@@@@@@	Chip_pm_prepare	@@@@@@@@@@@@@@@@@@@@
+>  270.710176< @@@@@@@@@@@@@@@@@@@@	Chip_pm_enter	@@@@@@@@@@@@@@@@@@@@
+>  270.715004< @@@@@@@@@@@@@@@@@@@@	Chip_pm_finish	@@@@@@@@@@@@@@@@@@@@
+>  271.254281< @@@@@@@@@@@@@@@@@@@@	Chip_pm_prepare	@@@@@@@@@@@@@@@@@@@@
+>  271.265284< @@@@@@@@@@@@@@@@@@@@	Chip_pm_enter	@@@@@@@@@@@@@@@@@@@@
+>  271.271868< @@@@@@@@@@@@@@@@@@@@	Chip_pm_finish	@@@@@@@@@@@@@@@@@@@@
+>  271.853104< @@@@@@@@@@@@@@@@@@@@	Chip_pm_prepare	@@@@@@@@@@@@@@@@@@@@
+>  271.863642< @@@@@@@@@@@@@@@@@@@@	Chip_pm_enter	@@@@@@@@@@@@@@@@@@@@
+>  271.870553< @@@@@@@@@@@@@@@@@@@@	Chip_pm_finish	@@@@@@@@@@@@@@@@@@@@
+>  272.703235< @@@@@@@@@@@@@@@@@@@@	Chip_pm_prepare	@@@@@@@@@@@@@@@@@@@@
+>  272.714541< @@@@@@@@@@@@@@@@@@@@	Chip_pm_enter	@@@@@@@@@@@@@@@@@@@@
+>  272.721120< @@@@@@@@@@@@@@@@@@@@	Chip_pm_finish	@@@@@@@@@@@@@@@@@@@@
+>  273.542798< @@@@@@@@@@@@@@@@@@@@	Chip_pm_prepare	@@@@@@@@@@@@@@@@@@@@
+>  273.549831< @@@@@@@@@@@@@@@@@@@@	Chip_pm_enter	@@@@@@@@@@@@@@@@@@@@
+>  273.554633< @@@@@@@@@@@@@@@@@@@@	Chip_pm_finish	@@@@@@@@@@@@@@@@@@@@
+>  274.362975< @@@@@@@@@@@@@@@@@@@@	Chip_pm_prepare	@@@@@@@@@@@@@@@@@@@@
+>  274.387116< @@@@@@@@@@@@@@@@@@@@	Chip_pm_finish	@@@@@@@@@@@@@@@@@@@@
+>  274.932700< @@@@@@@@@@@@@@@@@@@@	Chip_pm_prepare	@@@@@@@@@@@@@@@@@@@@
+>  274.943078< @@@@@@@@@@@@@@@@@@@@	Chip_pm_enter	@@@@@@@@@@@@@@@@@@@@
+>  274.949757< @@@@@@@@@@@@@@@@@@@@	Chip_pm_finish	@@@@@@@@@@@@@@@@@@@@
+>  275.493443< @@@@@@@@@@@@@@@@@@@@	Chip_pm_prepare	@@@@@@@@@@@@@@@@@@@@
+>  275.505002< @@@@@@@@@@@@@@@@@@@@	Chip_pm_enter	@@@@@@@@@@@@@@@@@@@@
+>  275.511580< @@@@@@@@@@@@@@@@@@@@	Chip_pm_finish	@@@@@@@@@@@@@@@@@@@@
+>  276.042620< @@@@@@@@@@@@@@@@@@@@	Chip_pm_prepare	@@@@@@@@@@@@@@@@@@@@
+>  276.053683< @@@@@@@@@@@@@@@@@@@@	Chip_pm_enter	@@@@@@@@@@@@@@@@@@@@
+>  276.060306< @@@@@@@@@@@@@@@@@@@@	Chip_pm_finish	@@@@@@@@@@@@@@@@@@@@
+>  276.715823< @@@@@@@@@@@@@@@@@@@@	Chip_pm_prepare	@@@@@@@@@@@@@@@@@@@@
+>  276.723038< @@@@@@@@@@@@@@@@@@@@	Chip_pm_enter	@@@@@@@@@@@@@@@@@@@@
+>  276.729130< @@@@@@@@@@@@@@@@@@@@	Chip_pm_finish	@@@@@@@@@@@@@@@@@@@@
+>  277.272870< @@@@@@@@@@@@@@@@@@@@	Chip_pm_prepare	@@@@@@@@@@@@@@@@@@@@
+>  277.284374< @@@@@@@@@@@@@@@@@@@@	Chip_pm_enter	@@@@@@@@@@@@@@@@@@@@
+>  277.290970< @@@@@@@@@@@@@@@@@@@@	Chip_pm_finish	@@@@@@@@@@@@@@@@@@@@
+>  277.832577< @@@@@@@@@@@@@@@@@@@@	Chip_pm_prepare	@@@@@@@@@@@@@@@@@@@@
+>  277.842782< @@@@@@@@@@@@@@@@@@@@	Chip_pm_enter	@@@@@@@@@@@@@@@@@@@@
+>  277.849314< @@@@@@@@@@@@@@@@@@@@	Chip_pm_finish	@@@@@@@@@@@@@@@@@@@@
+>  278.472600< @@@@@@@@@@@@@@@@@@@@	Chip_pm_prepare	@@@@@@@@@@@@@@@@@@@@
+>  278.483874< @@@@@@@@@@@@@@@@@@@@	Chip_pm_enter	@@@@@@@@@@@@@@@@@@@@
+>  278.490498< @@@@@@@@@@@@@@@@@@@@	Chip_pm_finish	@@@@@@@@@@@@@@@@@@@@
+>  279.022213< @@@@@@@@@@@@@@@@@@@@	Chip_pm_prepare	@@@@@@@@@@@@@@@@@@@@
+>  279.032944< @@@@@@@@@@@@@@@@@@@@	Chip_pm_enter	@@@@@@@@@@@@@@@@@@@@
+>  279.039609< @@@@@@@@@@@@@@@@@@@@	Chip_pm_finish	@@@@@@@@@@@@@@@@@@@@
+>  280.135404< @@@@@@@@@@@@@@@@@@@@	Chip_pm_prepare	@@@@@@@@@@@@@@@@@@@@
+>  280.142724< @@@@@@@@@@@@@@@@@@@@	Chip_pm_enter	@@@@@@@@@@@@@@@@@@@@
+>  280.148762< @@@@@@@@@@@@@@@@@@@@	Chip_pm_finish	@@@@@@@@@@@@@@@@@@@@
+>  280.691754< @@@@@@@@@@@@@@@@@@@@	Chip_pm_prepare	@@@@@@@@@@@@@@@@@@@@
+>  280.702512< @@@@@@@@@@@@@@@@@@@@	Chip_pm_enter	@@@@@@@@@@@@@@@@@@@@
+>  280.709171< @@@@@@@@@@@@@@@@@@@@	Chip_pm_finish	@@@@@@@@@@@@@@@@@@@@
+>  281.252222< @@@@@@@@@@@@@@@@@@@@	Chip_pm_prepare	@@@@@@@@@@@@@@@@@@@@
+>  281.262839< @@@@@@@@@@@@@@@@@@@@	Chip_pm_enter	@@@@@@@@@@@@@@@@@@@@
+>  281.269430< @@@@@@@@@@@@@@@@@@@@	Chip_pm_finish	@@@@@@@@@@@@@@@@@@@@
+>  281.873066< @@@@@@@@@@@@@@@@@@@@	Chip_pm_prepare	@@@@@@@@@@@@@@@@@@@@
+>  281.883939< @@@@@@@@@@@@@@@@@@@@	Chip_pm_enter	@@@@@@@@@@@@@@@@@@@@
+>  281.890863< @@@@@@@@@@@@@@@@@@@@	Chip_pm_finish	@@@@@@@@@@@@@@@@@@@@
+>  282.422431< @@@@@@@@@@@@@@@@@@@@	Chip_pm_prepare	@@@@@@@@@@@@@@@@@@@@
+>  282.432746< @@@@@@@@@@@@@@@@@@@@	Chip_pm_enter	@@@@@@@@@@@@@@@@@@@@
+>  282.439352< @@@@@@@@@@@@@@@@@@@@	Chip_pm_finish	@@@@@@@@@@@@@@@@@@@@
+>  282.981319< @@@@@@@@@@@@@@@@@@@@	Chip_pm_prepare	@@@@@@@@@@@@@@@@@@@@
+>  282.988387< @@@@@@@@@@@@@@@@@@@@	Chip_pm_enter	@@@@@@@@@@@@@@@@@@@@
+>  282.993322< @@@@@@@@@@@@@@@@@@@@	Chip_pm_finish	@@@@@@@@@@@@@@@@@@@@
+>  283.582249< @@@@@@@@@@@@@@@@@@@@	Chip_pm_prepare	@@@@@@@@@@@@@@@@@@@@
+>  283.593367< @@@@@@@@@@@@@@@@@@@@	Chip_pm_enter	@@@@@@@@@@@@@@@@@@@@
+>  283.599903< @@@@@@@@@@@@@@@@@@@@	Chip_pm_finish	@@@@@@@@@@@@@@@@@@@@
+>  284.132265< @@@@@@@@@@@@@@@@@@@@	Chip_pm_prepare	@@@@@@@@@@@@@@@@@@@@
+>  284.142410< @@@@@@@@@@@@@@@@@@@@	Chip_pm_enter	@@@@@@@@@@@@@@@@@@@@
+>  284.148875< @@@@@@@@@@@@@@@@@@@@	Chip_pm_finish	@@@@@@@@@@@@@@@@@@@@
