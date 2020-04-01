@@ -7,6 +7,11 @@
  *---------------------------------------------------------------*/
 
 #include "lcm_drv.h"
+#if defined(BUILD_LK)
+#else
+
+#include <linux/proc_fs.h>
+#endif
 
 // ---------------------------------------------------------------------------
 //  Local Constants
@@ -336,11 +341,11 @@ static void lcm_get_params(LCM_PARAMS *params)
 
 static void lcm_suspend(void)
 {
+#ifndef BUILD_LK
 	push_table(lcm_deep_sleep_mode_in_setting, sizeof(lcm_deep_sleep_mode_in_setting) / sizeof(struct LCM_setting_table), 1);
 	SET_RESET_PIN(0);
 	MDELAY(20);
-
-
+#endif
 }
 
 
@@ -363,7 +368,9 @@ static void lcm_init(void)
 
 static void lcm_resume(void)
 {
+#ifndef BUILD_LK
     lcm_init();
+#endif
 }
 
 static void lcm_init_power(void)
