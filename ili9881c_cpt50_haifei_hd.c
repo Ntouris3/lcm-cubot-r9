@@ -336,14 +336,11 @@ static void lcm_get_params(LCM_PARAMS *params)
 
 static void lcm_suspend(void)
 {
-	SET_RESET_PIN(1);
-	MDELAY(10);
+	push_table(lcm_deep_sleep_mode_in_setting, sizeof(lcm_deep_sleep_mode_in_setting) / sizeof(struct LCM_setting_table), 1);
 	SET_RESET_PIN(0);
 	MDELAY(20);
-	SET_RESET_PIN(1);
-	MDELAY(120);
 
-	push_table(lcm_deep_sleep_mode_in_setting, sizeof(lcm_deep_sleep_mode_in_setting) / sizeof(struct LCM_setting_table), 1);
+
 }
 
 
