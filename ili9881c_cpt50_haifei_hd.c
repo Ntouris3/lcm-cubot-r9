@@ -295,8 +295,6 @@ static void lcm_set_util_funcs(const LCM_UTIL_FUNCS *util)
 {
 	memcpy(&lcm_util, util, sizeof(LCM_UTIL_FUNCS));
 }
-
-
 static void lcm_get_params(LCM_PARAMS *params)
 {
 	memset(params, 0, sizeof(LCM_PARAMS));
@@ -310,7 +308,6 @@ static void lcm_get_params(LCM_PARAMS *params)
 	params->dsi.vertical_sync_active = 8;
 	params->dsi.vertical_backporch = 16;
 	params->dsi.PLL_CLOCK = 280;
-	params->dsi.lcm_esd_check_table[0].cmd = 10;
 	params->type = 2;
 	params->dsi.data_format.format = 2;
 	params->dsi.PS = 2;
@@ -321,11 +318,8 @@ static void lcm_get_params(LCM_PARAMS *params)
 	params->dbi.te_mode = 1;
 	params->dsi.mode = 1;
 	params->dsi.clk_lp_per_line_enable = 1;
-	params->dsi.esd_check_enable = 1;
-	params->dsi.customization_esd_check_enable = 1;
-	params->dsi.lcm_esd_check_table[0].count = 1;
 	params->dbi.te_edge_polarity = 0;
-	params->dsi.data_format.color_order = 0;
+        params->dsi.data_format.color_order = 0;
 	params->dsi.data_format.trans_seq = 0;
 	params->dsi.data_format.padding = 0;
 	params->dsi.intermediat_buffer_num = 0;
@@ -334,9 +328,27 @@ static void lcm_get_params(LCM_PARAMS *params)
 	params->dsi.HS_TRAIL = 20;
 	params->dsi.horizontal_backporch = 60;
 	params->dsi.horizontal_frontporch = 60;
-	params->dsi.lcm_esd_check_table[0].para_list[0] = -100;
 	params->dsi.noncont_clock = 0;
 }
+
+
+
+
+static void lcm_suspend(void)
+{
+	SET_RESET_PIN(1);
+	MDELAY(10);
+	SET_RESET_PIN(0);
+	MDELAY(20);
+	SET_RESET_PIN(1);
+	MDELAY(120);
+
+	push_table(lcm_deep_sleep_mode_in_setting, sizeof(lcm_deep_sleep_mode_in_setting) / sizeof(struct LCM_setting_table), 1);
+}
+
+
+
+
 
 static void lcm_init(void)
 {
@@ -351,12 +363,6 @@ static void lcm_init(void)
 }
 
 
-static void lcm_suspend(void)
-{
-	push_table(lcm_deep_sleep_mode_in_setting, sizeof(lcm_deep_sleep_mode_in_setting) / sizeof(struct LCM_setting_table), 1);
-	SET_RESET_PIN(0);
-	MDELAY(20);
-}
 
 static void lcm_resume(void)
 {
