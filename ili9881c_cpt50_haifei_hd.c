@@ -348,8 +348,10 @@ static void lcm_get_params(LCM_PARAMS *params)
 static void lcm_suspend(void)
 {
 	push_table(lcm_deep_sleep_mode_in_setting, sizeof(lcm_deep_sleep_mode_in_setting) / sizeof(struct LCM_setting_table), 1);
-	SET_RESET_PIN(0);
-	MDELAY(20);
+	/*
+	SET_RESET_PIN(0); //To try force use the lk driver.
+	MDELAY(20); 
+	*/
 }
 
 
@@ -358,12 +360,12 @@ static void lcm_suspend(void)
 
 static void lcm_init(void)
 {
-	SET_RESET_PIN(1);
+	/*SET_RESET_PIN(1);
 	MDELAY(10);
-	SET_RESET_PIN(0);
+	SET_RESET_PIN(0);	//To try force the lk driver.
 	MDELAY(20);
 	SET_RESET_PIN(1);
-	MDELAY(120);
+	MDELAY(120);*/
 
 	push_table(lcm_initialization_setting, sizeof(lcm_initialization_setting) / sizeof(struct LCM_setting_table), 1);
 }
