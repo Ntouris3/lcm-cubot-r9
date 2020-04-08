@@ -18,7 +18,7 @@
 
 
 #define REGFLAG_DELAY             							(0XFE)
-#define REGFLAG_END_OF_TABLE      							(0xFF)
+#define REGFLAG_END_OF_TABLE      							(0x100)
 
 
 // ---------------------------------------------------------------------------
@@ -247,10 +247,10 @@ static struct LCM_setting_table lcm_initialization_setting[] =
 	{0XFF, 3, {0X98,0X81}},
 	{0X35, 1, {0X00}},
 	{0X11, 1, {0X00}},
-	{REGFLAG_DELAY, 120, {}},
+	{REGFLAG_DELAY, 120, {0x00}},
 	{0X29, 1, {0X00}},
-	{REGFLAG_DELAY, 20, {}},
-	{REGFLAG_END_OF_TABLE, 0X00, {}}
+	{REGFLAG_DELAY, 20, {0x00}},
+	{REGFLAG_END_OF_TABLE, 0X00, {0x00}}
 };	
 
 static struct LCM_setting_table lcm_deep_sleep_mode_in_setting[] = 
@@ -348,10 +348,10 @@ static void lcm_get_params(LCM_PARAMS *params)
 static void lcm_suspend(void)
 {
 	push_table(lcm_deep_sleep_mode_in_setting, sizeof(lcm_deep_sleep_mode_in_setting) / sizeof(struct LCM_setting_table), 1);
-	/*
+	
 	SET_RESET_PIN(0); //To try force use the lk driver.
 	MDELAY(20); 
-	*/
+	
 }
 
 
@@ -360,12 +360,12 @@ static void lcm_suspend(void)
 
 static void lcm_init(void)
 {
-	/*SET_RESET_PIN(1);
+	SET_RESET_PIN(1);
 	MDELAY(10);
 	SET_RESET_PIN(0);	//To try force the lk driver.
 	MDELAY(20);
 	SET_RESET_PIN(1);
-	MDELAY(120);*/
+	MDELAY(120);
 
 	push_table(lcm_initialization_setting, sizeof(lcm_initialization_setting) / sizeof(struct LCM_setting_table), 1);
 }
